@@ -5,11 +5,11 @@ db.once('open', async () => {
   await Category.deleteMany();
 
   const categories = await Category.insertMany([
-    { name: 'Food' },
-    { name: 'Household Supplies' },
-    { name: 'Electronics' },
-    { name: 'Books' },
-    { name: 'Toys' }
+    { name: 'Nike' },
+    { name: 'Jordan' },
+    { name: 'Adidas' },
+    { name: 'Converse' },
+    { name: 'Vans' }
   ]);
 
   console.log('categories seeded');
@@ -18,80 +18,80 @@ db.once('open', async () => {
 
   const products = await Product.insertMany([
     {
-      name: 'Tin of Cookies',
+      name: 'Nike Air Max 90',
       description:
-        'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-      image: 'cookie-tin.jpg',
+        'First a legend on the track and then a legend in the streets, the Nike Air Max 90 By You brings the comfort of Air to the masses.',
+      image: 'Nike-1.png',
       category: categories[0]._id,
-      price: 2.99,
-      quantity: 500
+      price: 140,
+      quantity: 114
     },
     {
-      name: 'Canned Coffee',
+      name: 'Nike Air Force 1 Low',
       description:
-        'Praesent sed lacinia mauris. Nulla congue nibh magna, at feugiat nunc scelerisque quis. Donec iaculis rutrum vulputate. Suspendisse lectus sem, vulputate ac lectus sed, placerat consequat dui.',
-      image: 'canned-coffee.jpg',
+        'The Nike Air Force 1 Low became an instant icon after its debut in 1982. Now you can make this classic your own with a color palette inspired by the ‘80s and ‘90s and premium materials including smooth and rippled leather and a new, matching sidewall selection. It’s time to create a look that speaks to you.',
+      image: 'Nike-2.png',
       category: categories[0]._id,
-      price: 1.99,
-      quantity: 500
+      price: 110,
+      quantity: 322
     },
     {
-      name: 'Toilet Paper',
-      category: categories[1]._id,
+      name: 'Nike Air Max 95',
+      category: categories[0]._id,
       description:
-        'Donec volutpat erat erat, sit amet gravida justo sodales in. Phasellus tempus euismod urna. Proin ultrices nisi ut ipsum congue, vitae porttitor libero suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam lacinia a nisi non congue.',
-      image: 'toilet-paper.jpg',
-      price: 7.99,
-      quantity: 20
+        'Celebrate workwear’s wide appeal with a new take on the Nike Air Max 95. Utilitarian materials like polished twill and leather are rugged and durable with an undeniable nod to runway style. Perfectly understated details like contrast stitching and gradient layers add a new level of depth to this long-time favorite.',
+      image: 'Nike-3.png',
+      price: 180,
+      quantity: 243
     },
     {
-      name: 'Handmade Soap',
-      category: categories[1]._id,
+      name: 'Nike Waffle One',
+      category: categories[0]._id,
       description:
-        'Praesent placerat, odio vel euismod venenatis, lectus arcu laoreet felis, et fringilla sapien turpis vestibulum nisl.',
-      image: 'soap.jpg',
-      price: 3.99,
-      quantity: 50
+        'The Nike Waffle One is the original racer. Go for a hyper-heritage look or modernize with colors and details inspired by long days at the beach. OG materials and colors straight from the vault blend seamlessly with innovative materials and finishes for a look that’s 100% you.',
+      image: 'Nike-4.png',
+      price: 130,
+      quantity: 106
     },
     {
-      name: 'Set of Wooden Spoons',
-      category: categories[1]._id,
+      name: 'Nike React Live',
+      category: categories[0]._id,
       description:
-        'Vivamus ut turpis in purus pretium mollis. Donec turpis odio, semper vel interdum ut, vulputate at ex. Duis dignissim nisi vel tortor imperdiet finibus. Aenean aliquam sagittis rutrum.',
-      image: 'wooden-spoons.jpg',
-      price: 14.99,
-      quantity: 100
+        'The Nike React Live simulates the thrills of a ropes course without ever leaving the ground. The cable system that runs around the shoe nods to an adrenaline-pumping adventure. Choose “vertigo” mesh for a mind-bending visual experience. Outdoor-inspired laces and anodized aglets that draw on the look of a classic carabiner finish off this unique salute to the great outdoors.',
+      image: 'Nike-5.png',
+      price: 120,
+      quantity: 247
     },
     {
-      name: 'Camera',
-      category: categories[2]._id,
+      name: 'Nike Air Max 97',
+      category: categories[0]._id,
       description:
-        'Vestibulum risus metus, luctus non tortor quis, tincidunt consectetur ex. Nullam vitae lobortis ligula, ut sagittis massa. Curabitur consectetur, tellus at pulvinar venenatis, erat augue cursus erat, eu ullamcorper eros lectus ultrices ipsum. Integer rutrum, augue vitae auctor venenatis, turpis turpis elementum orci, at sagittis risus mi a leo.',
-      image: 'camera.jpg',
-      price: 399.99,
-      quantity: 30
+        'Bring back the nostalgia of long summer days from your childhood with a hot color palette and a wavy mesh that alludes to the mesmerizing optical illusion of heat rising off the blacktop. Classic layers get a new level of appeal with material choices, pop colors and metallic silver that hearkens back to the real OG: Nike Air Max 97.',
+      image: 'Nike-6.png',
+      price: 190,
+      quantity: 91
     },
     {
-      name: 'Tablet',
-      category: categories[2]._id,
+      name: 'Nike Air Presto',
+      category: categories[0]._id,
       description:
-        'In sodales, ipsum quis ultricies porttitor, tellus urna aliquam arcu, eget venenatis purus ligula ut nisi. Fusce ut felis dolor. Mauris justo ante, aliquet non tempus in, tempus ac lorem. Aliquam lacinia dolor eu sem eleifend ultrices. Etiam mattis metus metus. Sed ligula dui, placerat non turpis vitae, suscipit volutpat elit. Phasellus sagittis, diam elementum suscipit fringilla, libero mauris scelerisque ex, ac interdum diam erat non sapien.',
-      image: 'tablet.jpg',
-      price: 199.99,
-      quantity: 30
+        'The Nike Air Presto Shoe elevates a popular runner with modern innovation. Color the snug bootie and iconic cage, then dial up your design with speckles and color on the heel cushioning. Finish it off with a short personal message on the heel.',
+      image: 'Nike-7.png',
+      price: 150,
+      quantity: 203
     },
     {
-      name: 'Tales at Bedtime',
-      category: categories[3]._id,
+      name: 'Nike React Vision',
+      category: categories[0]._id,
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare diam quis eleifend rutrum. Aliquam nulla est, volutpat non enim nec, pharetra gravida augue. Donec vitae dictum neque. Pellentesque arcu lorem, fringilla non ligula ac, tristique bibendum erat. Ut a semper nibh. Quisque a mi et mi tempor ultricies. Maecenas eu ipsum eu enim hendrerit accumsan at euismod urna.',
-      image: 'bedtime-book.jpg',
-      price: 9.99,
-      quantity: 100
+        'Inspired by the mythical creatures of Mexican folk art, the Nike React Vision By You serves up a palette of textures, graphics and materials that let you express your wild side. Add surreal comfort with Nike React foam and a personal message on the heel clip for a shoe that could only come from the dream world.',
+      image: 'Nike-8.png',
+      price: 150,
+      quantity: 187
     },
     {
       name: 'Spinning Top',
-      category: categories[4]._id,
+      category: categories[1]._id,
       description: 'Ut vulputate hendrerit nibh, a placerat elit cursus interdum.',
       image: 'spinning-top.jpg',
       price: 1.99,
@@ -99,7 +99,7 @@ db.once('open', async () => {
     },
     {
       name: 'Set of Plastic Horses',
-      category: categories[4]._id,
+      category: categories[1]._id,
       description:
         'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
       image: 'plastic-horses.jpg',
@@ -108,12 +108,183 @@ db.once('open', async () => {
     },
     {
       name: 'Teddy Bear',
-      category: categories[4]._id,
+      category: categories[1]._id,
       description:
         'Vestibulum et erat finibus erat suscipit vulputate sed vitae dui. Ut laoreet tellus sit amet justo bibendum ultrices. Donec vitae felis vestibulum, congue augue eu, finibus turpis.',
       image: 'teddy-bear.jpg',
       price: 7.99,
       quantity: 100
+    },
+    {
+      name: 'Alphabet Blocks',
+      category: categories[1]._id,
+      description:
+        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+      image: 'alphabet-blocks.jpg',
+      price: 9.99,
+      quantity: 600
+    },
+    {
+      name: 'Alphabet Blocks',
+      category: categories[1]._id,
+      description:
+        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+      image: 'alphabet-blocks.jpg',
+      price: 9.99,
+      quantity: 600
+    },
+    {
+      name: 'Alphabet Blocks',
+      category: categories[1]._id,
+      description:
+        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+      image: 'alphabet-blocks.jpg',
+      price: 9.99,
+      quantity: 600
+    },
+    {
+      name: 'Alphabet Blocks',
+      category: categories[1]._id,
+      description:
+        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+      image: 'alphabet-blocks.jpg',
+      price: 9.99,
+      quantity: 600
+    },
+    {
+      name: 'Alphabet Blocks',
+      category: categories[2]._id,
+      description:
+        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+      image: 'alphabet-blocks.jpg',
+      price: 9.99,
+      quantity: 600
+    },
+    {
+      name: 'Alphabet Blocks',
+      category: categories[2]._id,
+      description:
+        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+      image: 'alphabet-blocks.jpg',
+      price: 9.99,
+      quantity: 600
+    },
+    {
+      name: 'Alphabet Blocks',
+      category: categories[2]._id,
+      description:
+        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+      image: 'alphabet-blocks.jpg',
+      price: 9.99,
+      quantity: 600
+    },
+    {
+      name: 'Alphabet Blocks',
+      category: categories[2]._id,
+      description:
+        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+      image: 'alphabet-blocks.jpg',
+      price: 9.99,
+      quantity: 600
+    },
+    {
+      name: 'Alphabet Blocks',
+      category: categories[2]._id,
+      description:
+        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+      image: 'alphabet-blocks.jpg',
+      price: 9.99,
+      quantity: 600
+    },
+    {
+      name: 'Alphabet Blocks',
+      category: categories[2]._id,
+      description:
+        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+      image: 'alphabet-blocks.jpg',
+      price: 9.99,
+      quantity: 600
+    },
+    {
+      name: 'Alphabet Blocks',
+      category: categories[2]._id,
+      description:
+        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+      image: 'alphabet-blocks.jpg',
+      price: 9.99,
+      quantity: 600
+    },
+    {
+      name: 'Alphabet Blocks',
+      category: categories[3]._id,
+      description:
+        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+      image: 'alphabet-blocks.jpg',
+      price: 9.99,
+      quantity: 600
+    },
+    {
+      name: 'Alphabet Blocks',
+      category: categories[3]._id,
+      description:
+        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+      image: 'alphabet-blocks.jpg',
+      price: 9.99,
+      quantity: 600
+    },
+    {
+      name: 'Alphabet Blocks',
+      category: categories[3]._id,
+      description:
+        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+      image: 'alphabet-blocks.jpg',
+      price: 9.99,
+      quantity: 600
+    },
+    {
+      name: 'Alphabet Blocks',
+      category: categories[3]._id,
+      description:
+        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+      image: 'alphabet-blocks.jpg',
+      price: 9.99,
+      quantity: 600
+    },
+    {
+      name: 'Alphabet Blocks',
+      category: categories[3]._id,
+      description:
+        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+      image: 'alphabet-blocks.jpg',
+      price: 9.99,
+      quantity: 600
+    },
+    {
+      name: 'Alphabet Blocks',
+      category: categories[3]._id,
+      description:
+        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+      image: 'alphabet-blocks.jpg',
+      price: 9.99,
+      quantity: 600
+    },
+    {
+      name: 'Alphabet Blocks',
+      category: categories[3]._id,
+      description:
+        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+      image: 'alphabet-blocks.jpg',
+      price: 9.99,
+      quantity: 600
+    },
+    {
+      name: 'Alphabet Blocks',
+      category: categories[3]._id,
+      description:
+        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+      image: 'alphabet-blocks.jpg',
+      price: 9.99,
+      quantity: 600
     },
     {
       name: 'Alphabet Blocks',
@@ -123,7 +294,178 @@ db.once('open', async () => {
       image: 'alphabet-blocks.jpg',
       price: 9.99,
       quantity: 600
-    }
+    },
+    {
+      name: 'Alphabet Blocks',
+      category: categories[4]._id,
+      description:
+        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+      image: 'alphabet-blocks.jpg',
+      price: 9.99,
+      quantity: 600
+    },
+    {
+      name: 'Alphabet Blocks',
+      category: categories[4]._id,
+      description:
+        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+      image: 'alphabet-blocks.jpg',
+      price: 9.99,
+      quantity: 600
+    },
+    {
+      name: 'Alphabet Blocks',
+      category: categories[4]._id,
+      description:
+        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+      image: 'alphabet-blocks.jpg',
+      price: 9.99,
+      quantity: 600
+    },
+    {
+      name: 'Alphabet Blocks',
+      category: categories[4]._id,
+      description:
+        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+      image: 'alphabet-blocks.jpg',
+      price: 9.99,
+      quantity: 600
+    },
+    {
+      name: 'Alphabet Blocks',
+      category: categories[4]._id,
+      description:
+        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+      image: 'alphabet-blocks.jpg',
+      price: 9.99,
+      quantity: 600
+    },
+    {
+      name: 'Alphabet Blocks',
+      category: categories[4]._id,
+      description:
+        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+      image: 'alphabet-blocks.jpg',
+      price: 9.99,
+      quantity: 600
+    },
+    {
+      name: 'Alphabet Blocks',
+      category: categories[4]._id,
+      description:
+        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+      image: 'alphabet-blocks.jpg',
+      price: 9.99,
+      quantity: 600
+    },
+    {
+      name: 'Alphabet Blocks',
+      category: categories[4]._id,
+      description:
+        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+      image: 'alphabet-blocks.jpg',
+      price: 9.99,
+      quantity: 600
+    },
+    // {
+    //   name: 'Alphabet Blocks',
+    //   category: categories[5]._id,
+    //   description:
+    //     'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+    //   image: 'alphabet-blocks.jpg',
+    //   price: 9.99,
+    //   quantity: 600
+    // },
+    // {
+    //   name: 'Alphabet Blocks',
+    //   category: categories[5]._id,
+    //   description:
+    //     'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+    //   image: 'alphabet-blocks.jpg',
+    //   price: 9.99,
+    //   quantity: 600
+    // },
+    // {
+    //   name: 'Alphabet Blocks',
+    //   category: categories[5]._id,
+    //   description:
+    //     'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+    //   image: 'alphabet-blocks.jpg',
+    //   price: 9.99,
+    //   quantity: 600
+    // },
+    // {
+    //   name: 'Alphabet Blocks',
+    //   category: categories[5]._id,
+    //   description:
+    //     'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+    //   image: 'alphabet-blocks.jpg',
+    //   price: 9.99,
+    //   quantity: 600
+    // },
+    // {
+    //   name: 'Alphabet Blocks',
+    //   category: categories[5]._id,
+    //   description:
+    //     'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+    //   image: 'alphabet-blocks.jpg',
+    //   price: 9.99,
+    //   quantity: 600
+    // },
+    // {
+    //   name: 'Alphabet Blocks',
+    //   category: categories[5]._id,
+    //   description:
+    //     'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+    //   image: 'alphabet-blocks.jpg',
+    //   price: 9.99,
+    //   quantity: 600
+    // },
+    // {
+    //   name: 'Alphabet Blocks',
+    //   category: categories[5]._id,
+    //   description:
+    //     'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+    //   image: 'alphabet-blocks.jpg',
+    //   price: 9.99,
+    //   quantity: 600
+    // },
+    // {
+    //   name: 'Alphabet Blocks',
+    //   category: categories[5]._id,
+    //   description:
+    //     'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+    //   image: 'alphabet-blocks.jpg',
+    //   price: 9.99,
+    //   quantity: 600
+    // },
+    // {
+    //   name: 'Alphabet Blocks',
+    //   category: categories[5]._id,
+    //   description:
+    //     'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+    //   image: 'alphabet-blocks.jpg',
+    //   price: 9.99,
+    //   quantity: 600
+    // },
+    // {
+    //   name: 'Alphabet Blocks',
+    //   category: categories[5]._id,
+    //   description:
+    //     'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+    //   image: 'alphabet-blocks.jpg',
+    //   price: 9.99,
+    //   quantity: 600
+    // },
+    // {
+    //   name: 'Alphabet Blocks',
+    //   category: categories[5]._id,
+    //   description:
+    //     'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+    //   image: 'alphabet-blocks.jpg',
+    //   price: 9.99,
+    //   quantity: 600
+    // },
   ]);
 
   console.log('products seeded');
