@@ -90,138 +90,147 @@ db.once('open', async () => {
       quantity: 187
     },
     {
-      name: 'Spinning Top',
+      name: 'Air Jordan 1 Low',
       category: categories[1]._id,
-      description: 'Ut vulputate hendrerit nibh, a placerat elit cursus interdum.',
-      image: 'spinning-top.jpg',
-      price: 1.99,
-      quantity: 1000
+      description: "Inspired by the original that debuted in 1985, the Air Jordan 1 Low offers a clean, classic look that's familiar yet always fresh. It's made for casual mode, with an iconic design that goes with everything and never goes out of style.",
+      image: 'Jordan-1.png',
+      price: 110,
+      quantity: 118
     },
     {
-      name: 'Set of Plastic Horses',
-      category: categories[1]._id,
-      description:
-        'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
-      image: 'plastic-horses.jpg',
-      price: 2.99,
-      quantity: 1000
-    },
-    {
-      name: 'Teddy Bear',
+      name: 'Air Jordan 1 Mid',
       category: categories[1]._id,
       description:
-        'Vestibulum et erat finibus erat suscipit vulputate sed vitae dui. Ut laoreet tellus sit amet justo bibendum ultrices. Donec vitae felis vestibulum, congue augue eu, finibus turpis.',
-      image: 'teddy-bear.jpg',
-      price: 7.99,
-      quantity: 100
+        'The Air Jordan 1 Mid Shoe is inspired by the first AJ1, offering fans of Jordan retros a chance to follow in the footsteps of greatness. Fresh color trims the clean, classic materials, injecting some newness into the familiar design.',
+      image: 'Jordan-2.png',
+      price: 120,
+      quantity: 162
     },
     {
-      name: 'Alphabet Blocks',
+      name: 'Air Jordan 4 Retro',
       category: categories[1]._id,
       description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-      image: 'alphabet-blocks.jpg',
-      price: 9.99,
-      quantity: 600
+        "The Air Jordan 4 Retro is inspired by the original metallic colors featured on the Air Jordan 1 from 1985. Boldly original, the now-iconic colors continue to reinforce the Brand's peerless heritage.",
+      image: 'Jordan-3.png',
+      price: 190,
+      quantity: 89
     },
     {
-      name: 'Alphabet Blocks',
+      name: 'Jordan Delta 2',
       category: categories[1]._id,
       description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-      image: 'alphabet-blocks.jpg',
-      price: 9.99,
-      quantity: 600
+        "The Jordan Delta 2 offers a fresh, fearless take on the features you want: durability, comfort and an attitude that's Jordan to the core. We updated design lines and swapped out some components, but the idea is the same as the first Delta. The 2 still has that clashing combination of supportive and space age-like materials, with lots of different textures and heavy stitching to create a look that's both adventurous and iconic.",
+      image: 'Jordan-4.png',
+      price: 130,
+      quantity: 206
     },
     {
-      name: 'Alphabet Blocks',
+      name: 'Jordan Point Lane',
       category: categories[1]._id,
       description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-      image: 'alphabet-blocks.jpg',
-      price: 9.99,
-      quantity: 600
+        "The Jordan Point Lane mixes elements from game shoes MJ wore during 3 of his most memorable seasons. Named for his Chicago address, this mash-up pulls in bits and pieces from the AJ3, AJ6 and AJ11 to create a shoe that's inspired by greatness and uncompromising in its comfort.",
+      image: 'Jordan-5.png',
+      price: 140,
+      quantity: 110
     },
     {
-      name: 'Alphabet Blocks',
+      name: 'Jordan MA2',
       category: categories[1]._id,
       description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-      image: 'alphabet-blocks.jpg',
-      price: 9.99,
-      quantity: 600
+        "Shatter the sneaker status quo in the Jordan MA2. Made with a mix of suede, full-grain leather and a variety of textiles, it's got unconventional labels, technical micro-graphics and raw foam edges for a balance of new and classic. Easy to get on and off, it wears with just about anything.",
+      image: 'Jordan-6.png',
+      price: 125,
+      quantity: 291
     },
     {
-      name: 'Alphabet Blocks',
+      name: 'Air Jordan 11 CMFT Low',
+      category: categories[1]._id,
+      description:
+        'The Air Jordan 11 CMFT Low looks to the future of flight with comfort in mind. The soft leather toe cap and mudguard and webbing lace loops replicate distinct features from the original AJ11. Soft, smooth Cushlon foam and Zoom Air cushioning make every step comfortable.',
+      image: 'Jordan-7.png',
+      price: 120,
+      quantity: 72
+    },
+    {
+      name: 'Jordan Air NFH',
+      category: categories[1]._id,
+      description:
+        'The Jordan Air NFH is an everyday sneaker with basketball in its DNA. Details like visible Air cushioning, stitched overlays and herringbone traction hook to the brand’s performance pedigree. Lightweight materials and an easy fit make it comfortable.',
+      image: 'Jordan-8.png',
+      price: 110,
+      quantity: 104
+    },
+    {
+      name: 'Converse Chuck Taylor All Star Low Top/Black',
       category: categories[2]._id,
       description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-      image: 'alphabet-blocks.jpg',
-      price: 9.99,
-      quantity: 600
+        'You need a style to rely on. The Chuck Taylor All-Star is a staple: the high-top and oxford silhouettes stay simply classic, while the white laces and star ankle patch give a nod to the legacy of the Chuck. This is the go-with-everything go-to that you won’t get sick of going to. Stock up.',
+      image: 'Converse-1.png',
+      price: 55,
+      quantity: 107
     },
     {
-      name: 'Alphabet Blocks',
+      name: 'Converse Chuck Taylor All Star Low Top/White',
       category: categories[2]._id,
       description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-      image: 'alphabet-blocks.jpg',
-      price: 9.99,
-      quantity: 600
+        'You need a style to rely on. The Chuck Taylor All-Star is a staple: the high-top and oxford silhouettes stay simply classic, while the white laces and star ankle patch give a nod to the legacy of the Chuck. This is the go-with-everything go-to that you won’t get sick of going to. Stock up.',
+      image: 'Converse-2.png',
+      price: 55,
+      quantity: 121
     },
     {
-      name: 'Alphabet Blocks',
+      name: 'Converse Chuck Taylor All Star Low Top/Blue',
       category: categories[2]._id,
       description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-      image: 'alphabet-blocks.jpg',
-      price: 9.99,
-      quantity: 600
+        'You need a style to rely on. The Chuck Taylor All-Star is a staple: the high-top and oxford silhouettes stay simply classic, while the white laces and star ankle patch give a nod to the legacy of the Chuck. This is the go-with-everything go-to that you won’t get sick of going to. Stock up.',
+      image: 'Converse-3.png',
+      price: 55,
+      quantity: 143
     },
     {
-      name: 'Alphabet Blocks',
+      name: 'Converse Chuck Taylor All Star Low Top/Red',
       category: categories[2]._id,
       description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-      image: 'alphabet-blocks.jpg',
-      price: 9.99,
-      quantity: 600
+        'You need a style to rely on. The Chuck Taylor All-Star is a staple: the high-top and oxford silhouettes stay simply classic, while the white laces and star ankle patch give a nod to the legacy of the Chuck. This is the go-with-everything go-to that you won’t get sick of going to. Stock up.',
+      image: 'Converse-4.jpg',
+      price: 60,
+      quantity: 136
     },
     {
-      name: 'Alphabet Blocks',
+      name: 'Converse Chuck Taylor All Star High Top/Black',
       category: categories[2]._id,
       description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-      image: 'alphabet-blocks.jpg',
-      price: 9.99,
-      quantity: 600
+        'You need a style to rely on. The Chuck Taylor All-Star is a staple: the high-top and oxford silhouettes stay simply classic, while the white laces and star ankle patch give a nod to the legacy of the Chuck. This is the go-with-everything go-to that you won’t get sick of going to. Stock up.',
+      image: 'Converse-5.png',
+      price: 60,
+      quantity: 163
     },
     {
-      name: 'Alphabet Blocks',
+      name: 'Converse Chuck Taylor All Star High Top/White',
       category: categories[2]._id,
       description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-      image: 'alphabet-blocks.jpg',
-      price: 9.99,
-      quantity: 600
+        'You need a style to rely on. The Chuck Taylor All-Star is a staple: the high-top and oxford silhouettes stay simply classic, while the white laces and star ankle patch give a nod to the legacy of the Chuck. This is the go-with-everything go-to that you won’t get sick of going to. Stock up.',
+      image: 'Converse-6.png',
+      price: 60,
+      quantity: 194
     },
     {
-      name: 'Alphabet Blocks',
+      name: 'Converse Chuck Taylor All Star High Top/Blue',
       category: categories[2]._id,
       description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-      image: 'alphabet-blocks.jpg',
-      price: 9.99,
-      quantity: 600
+        'You need a style to rely on. The Chuck Taylor All-Star is a staple: the high-top and oxford silhouettes stay simply classic, while the white laces and star ankle patch give a nod to the legacy of the Chuck. This is the go-with-everything go-to that you won’t get sick of going to. Stock up.',
+      image: 'Converse-7.png',
+      price: 60,
+      quantity: 210
     },
     {
-      name: 'Alphabet Blocks',
-      category: categories[3]._id,
+      name: 'Converse Chuck Taylor All Star High Top/Red',
+      category: categories[2]._id,
       description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-      image: 'alphabet-blocks.jpg',
-      price: 9.99,
-      quantity: 600
+        'You need a style to rely on. The Chuck Taylor All-Star is a staple: the high-top and oxford silhouettes stay simply classic, while the white laces and star ankle patch give a nod to the legacy of the Chuck. This is the go-with-everything go-to that you won’t get sick of going to. Stock up.',
+      image: 'Converse-8.jpg',
+      price: 60,
+      quantity: 231
     },
     {
       name: 'Alphabet Blocks',
