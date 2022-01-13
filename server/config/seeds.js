@@ -305,76 +305,76 @@ db.once('open', async () => {
       quantity: 204
     },
     {
-      name: 'Alphabet Blocks',
+      name: 'Adidas NMD R1 Prime',
       category: categories[4]._id,
       description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-      image: 'alphabet-blocks.jpg',
-      price: 9.99,
-      quantity: 600
+        'Adidas NMD R1 Shoes. Knit upper with signature 3 stripe at quarters. Lace closure. Adidas logo screened at tongue. Heel loop. Boost midsole. Rubber outsole. Made with parley ocean plastic. Imported.',
+      image: 'Adidas-1.jpg',
+      price: 150,
+      quantity: 112
     },
     {
-      name: 'Alphabet Blocks',
+      name: 'Adidas Multix',
       category: categories[4]._id,
       description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-      image: 'alphabet-blocks.jpg',
-      price: 9.99,
-      quantity: 600
+        "Adidas Multix Shoes. Casual doesn't have to mean ordinary. Keep your look chill, but change it up with the standout style of these adidas Multix Shoes. A sporty mesh upper keeps your feet comfy as you take on whatever the day holds. Regular fit. Lace closure. Mesh upper. EVA midsole. Rubber outsole. Imported.",
+      image: 'Adidas-2.jpg',
+      price: 80,
+      quantity: 192
     },
     {
-      name: 'Alphabet Blocks',
+      name: 'Adidas ZX 1K Boost',
       category: categories[4]._id,
       description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-      image: 'alphabet-blocks.jpg',
-      price: 9.99,
-      quantity: 600
+        "Adidas ZX 1K Boost Shoes. Why should runners get all the glory? Lace into these adidas ZX 1K Boost Shoes and experience the same cutting-edge tech that first found its footing on the track. No running required. This pair fuses energy-returning Boost and EVA cushioning with sleek design for everyday wear. See the tech. Feel the comfort. Own your day. Lace closure. Knit mesh upper with overlays. Stable feel. Boost and EVA midsole. Rubber outsole. Imported",
+      image: 'Adidas-3.jpg',
+      price: 80,
+      quantity: 104
     },
     {
-      name: 'Alphabet Blocks',
+      name: 'Adidas Superstar',
       category: categories[4]._id,
       description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-      image: 'alphabet-blocks.jpg',
-      price: 9.99,
-      quantity: 600
+        "Adidas Superstar Shoes. Originally made for basketball courts in the '70s. Celebrated by hip hop royalty in the '80s. The adidas Superstar shoe is now a lifestyle staple for streetwear enthusiasts. The world-famous shell toe feature remains, providing style and protection. Just like it did on the B-ball courts back in the day. The serrated 3-Stripes detail and adidas Superstar box logo adds OG authenticity to your look. Lace closure. Leather upper. Rubber outsole. Imported.",
+      image: 'Adidas-4.jpg',
+      price: 90,
+      quantity: 113
     },
     {
-      name: 'Alphabet Blocks',
+      name: 'Adidas ZX 700HD',
       category: categories[4]._id,
       description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-      image: 'alphabet-blocks.jpg',
-      price: 9.99,
-      quantity: 600
+        "Adidas ZX 700 HD Shoes. The ZX line has always stood for innovation. The latest addition to adidas' tech-driven line is no exception. These sneakers are the perfect combination of modern materials and retro style. Go ahead. Step into the future. Lace closure. Textile upper with suede overlay. Synthetic lining. Rubber outsole. Imported.",
+      image: 'Adidas-5.jpg',
+      price: 90,
+      quantity: 181
     },
     {
-      name: 'Alphabet Blocks',
+      name: 'Adidas Swift Run 22',
       category: categories[4]._id,
       description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-      image: 'alphabet-blocks.jpg',
-      price: 9.99,
-      quantity: 600
+        'Adidas Swift Run 22 Shoes. Remember the first pair of sneakers you fell in love with? Relive the memory every day in these adidas Swift Run 22 Shoes. Rooted in running but designed for the daily grind, these sneakers keep you comfortable with a supportive knit mesh upper and a cushioned EVA midsole. Oh, and they look good too. Win win. Made with a series of recycled materials, this upper features at least 50% recycled content. This product represents just one of our solutions to help end plastic waste. Snug fit. Lace closure. Mesh upper. Textured feel. EVA midsole. Rubber outsole. Made with recycled materials. Imported.',
+      image: 'Adidas-6.jpg',
+      price: 85,
+      quantity: 106
     },
     {
-      name: 'Alphabet Blocks',
+      name: 'Adidas Ozelia',
       category: categories[4]._id,
       description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-      image: 'alphabet-blocks.jpg',
-      price: 9.99,
-      quantity: 600
+        "Adidas Ozelia Shoes. We may be a long way from the '90s, but these Ozelia Shoes are rooted in that loud, experimental era. Inspired by the adidas archives, the bold sneakers have a chunky build that's all about being noticed. They're sleek with a fast look, and when your days are fast-paced, the Adiprene cushioning helps out on the comfort side of things. This product is made with recycled content as part of our ambition to end plastic waste. 20% of pieces used to make the upper are made with minimum 50% recycled content. Snug fit. Lace closure. Textile upper. Adiprene cushioning. Rubber outsole. Imported",
+      image: 'Adidas-7.jpg',
+      price: 100,
+      quantity: 89
     },
     {
-      name: 'Alphabet Blocks',
+      name: 'Adidas Seeley Xt',
       category: categories[4]._id,
       description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-      image: 'alphabet-blocks.jpg',
-      price: 9.99,
-      quantity: 600
+        'Adidas Seeley XT shoes. Less is more with these Seeley shoes, low top skate shoes in the business of getting back to basics. Made of lightweight suede upper, these shoes offer top-to-bottom flexibility and comfort. Leather detailing. Gold Metal Eyelets. Grippy vulcanized rubber outsole for precise board feel. Imported.',
+      image: 'Adidas-8.jpg',
+      price: 65,
+      quantity: 124
     }
   ]);
 
