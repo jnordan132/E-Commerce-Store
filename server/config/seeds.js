@@ -8,8 +8,8 @@ db.once('open', async () => {
     { name: 'Nike' },
     { name: 'Jordan' },
     { name: 'Converse' },
-    { name: 'Adidas' },
-    { name: 'Vans' }
+    { name: 'Vans' },
+    { name: 'Adidas' }
   ]);
 
   console.log('categories seeded');
@@ -233,67 +233,76 @@ db.once('open', async () => {
       quantity: 231
     },
     {
-      name: 'Alphabet Blocks',
+      name: 'Vans Old Skool/Black',
       category: categories[3]._id,
       description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-      image: 'alphabet-blocks.jpg',
-      price: 9.99,
-      quantity: 600
+        'First known as the Vans #36, the Old Skool debuted in 1977 with a unique new addition: a random doodle drawn by founder Paul Van Doren, and originally referred to as the “jazz stripe.” Today, the famous Vans Sidestripe has become the unmistakable—and instantly recognizable—hallmark of the Vans brand. Constructed with durable suede and canvas uppers in a range of fresh colorways, the Old Skool pays homage to our heritage while ensuring that this low top, lace-up shoe remains as iconic as ever. It also features re-enforced toe caps, supportive padded collars, and signature rubber waffle outsoles.',
+      image: 'Vans-1.jpg',
+      price: 65,
+      quantity: 144
     },
     {
-      name: 'Alphabet Blocks',
+      name: 'Vans Old Skool/Brown',
       category: categories[3]._id,
       description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-      image: 'alphabet-blocks.jpg',
-      price: 9.99,
-      quantity: 600
+        'First known as the Vans #36, the Old Skool debuted in 1977 with a unique new addition: a random doodle drawn by founder Paul Van Doren, and originally referred to as the “jazz stripe.” Today, the famous Vans Sidestripe has become the unmistakable—and instantly recognizable—hallmark of the Vans brand. Constructed with durable suede and canvas uppers in a range of fresh colorways, the Old Skool pays homage to our heritage while ensuring that this low top, lace-up shoe remains as iconic as ever. It also features re-enforced toe caps, supportive padded collars, and signature rubber waffle outsoles.',
+      image: 'Vans-2.jpg',
+      price: 65,
+      quantity: 178
     },
     {
-      name: 'Alphabet Blocks',
+      name: 'Vans Old Skool/Grey',
       category: categories[3]._id,
       description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-      image: 'alphabet-blocks.jpg',
-      price: 9.99,
-      quantity: 600
+        'First known as the Vans #36, the Old Skool debuted in 1977 with a unique new addition: a random doodle drawn by founder Paul Van Doren, and originally referred to as the “jazz stripe.” Today, the famous Vans Sidestripe has become the unmistakable—and instantly recognizable—hallmark of the Vans brand. Constructed with durable suede and canvas uppers in a range of fresh colorways, the Old Skool pays homage to our heritage while ensuring that this low top, lace-up shoe remains as iconic as ever. It also features re-enforced toe caps, supportive padded collars, and signature rubber waffle outsoles.',
+      image: 'Vans-3.jpg',
+      price: 65,
+      quantity: 112
     },
     {
-      name: 'Alphabet Blocks',
+      name: 'Vans Old Skool/Red',
       category: categories[3]._id,
       description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-      image: 'alphabet-blocks.jpg',
-      price: 9.99,
-      quantity: 600
+        'First known as the Vans #36, the Old Skool debuted in 1977 with a unique new addition: a random doodle drawn by founder Paul Van Doren, and originally referred to as the “jazz stripe.” Today, the famous Vans Sidestripe has become the unmistakable—and instantly recognizable—hallmark of the Vans brand. Constructed with durable suede and canvas uppers in a range of fresh colorways, the Old Skool pays homage to our heritage while ensuring that this low top, lace-up shoe remains as iconic as ever. It also features re-enforced toe caps, supportive padded collars, and signature rubber waffle outsoles.',
+      image: 'Vans-4.jpg',
+      price: 65,
+      quantity: 149
     },
     {
-      name: 'Alphabet Blocks',
+      name: 'Vans Old Skool/White/Orange/Grey',
       category: categories[3]._id,
       description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-      image: 'alphabet-blocks.jpg',
-      price: 9.99,
-      quantity: 600
+        'First known as the Vans #36, the Old Skool debuted in 1977 with a unique new addition: a random doodle drawn by founder Paul Van Doren, and originally referred to as the “jazz stripe.” Today, the famous Vans Sidestripe has become the unmistakable—and instantly recognizable—hallmark of the Vans brand. Constructed with durable suede and canvas uppers in a range of fresh colorways, the Old Skool pays homage to our heritage while ensuring that this low top, lace-up shoe remains as iconic as ever. It also features re-enforced toe caps, supportive padded collars, and signature rubber waffle outsoles.',
+      image: 'Vans-5.jpg',
+      price: 65,
+      quantity: 97
     },
     {
-      name: 'Alphabet Blocks',
+      name: 'Vans Authentic/Blue',
       category: categories[3]._id,
       description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-      image: 'alphabet-blocks.jpg',
-      price: 9.99,
-      quantity: 600
+      "Born in Anaheim, California in 1966, the Authentic is the original Vans heritage style. Originally know as Vans #44 Deck Shoes, the Authentic became an immediate cult icon, and has embodied our “Off The Wall” attitude ever since. Constructed with a simple low top, lace-up profile, this classic shoe also features sturdy canvas uppers, metal eyelets, and signature rubber waffle outsoles.",
+      image: 'Vans-6.jpg',
+      price: 55,
+      quantity: 146
     },
     {
-      name: 'Alphabet Blocks',
+      name: 'Vans Authentic/Brown',
       category: categories[3]._id,
       description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-      image: 'alphabet-blocks.jpg',
-      price: 9.99,
-      quantity: 600
+        "Born in Anaheim, California in 1966, the Authentic is the original Vans heritage style. Originally know as Vans #44 Deck Shoes, the Authentic became an immediate cult icon, and has embodied our “Off The Wall” attitude ever since. Constructed with a simple low top, lace-up profile, this classic shoe also features sturdy canvas uppers, metal eyelets, and signature rubber waffle outsoles.",
+      image: 'Vans-7.jpg',
+      price: 55,
+      quantity: 113
+    },
+    {
+      name: 'Vans Slip-On/Grey',
+      category: categories[3]._id,
+      description:
+        'First introduced in 1977, the Vans #98—now known as the Classic Slip-On—instantly became an icon in Southern California. Fast forward to today, and the Classic Slip-On is known worldwide for its comfortable silhouette, easy wearability, and beloved design. Made with sturdy low profile canvas uppers, the Classic Slip-On is an everyday essential with true “Off The Wall” style. This iconic slip-on shoe also includes supportive padded collars, elastic side accents, and signature rubber waffle outsoles.',
+      image: 'Vans-8.jpg',
+      price: 55,
+      quantity: 204
     },
     {
       name: 'Alphabet Blocks',
@@ -366,115 +375,7 @@ db.once('open', async () => {
       image: 'alphabet-blocks.jpg',
       price: 9.99,
       quantity: 600
-    },
-    {
-      name: 'Alphabet Blocks',
-      category: categories[4]._id,
-      description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-      image: 'alphabet-blocks.jpg',
-      price: 9.99,
-      quantity: 600
-    },
-    // {
-    //   name: 'Alphabet Blocks',
-    //   category: categories[5]._id,
-    //   description:
-    //     'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-    //   image: 'alphabet-blocks.jpg',
-    //   price: 9.99,
-    //   quantity: 600
-    // },
-    // {
-    //   name: 'Alphabet Blocks',
-    //   category: categories[5]._id,
-    //   description:
-    //     'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-    //   image: 'alphabet-blocks.jpg',
-    //   price: 9.99,
-    //   quantity: 600
-    // },
-    // {
-    //   name: 'Alphabet Blocks',
-    //   category: categories[5]._id,
-    //   description:
-    //     'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-    //   image: 'alphabet-blocks.jpg',
-    //   price: 9.99,
-    //   quantity: 600
-    // },
-    // {
-    //   name: 'Alphabet Blocks',
-    //   category: categories[5]._id,
-    //   description:
-    //     'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-    //   image: 'alphabet-blocks.jpg',
-    //   price: 9.99,
-    //   quantity: 600
-    // },
-    // {
-    //   name: 'Alphabet Blocks',
-    //   category: categories[5]._id,
-    //   description:
-    //     'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-    //   image: 'alphabet-blocks.jpg',
-    //   price: 9.99,
-    //   quantity: 600
-    // },
-    // {
-    //   name: 'Alphabet Blocks',
-    //   category: categories[5]._id,
-    //   description:
-    //     'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-    //   image: 'alphabet-blocks.jpg',
-    //   price: 9.99,
-    //   quantity: 600
-    // },
-    // {
-    //   name: 'Alphabet Blocks',
-    //   category: categories[5]._id,
-    //   description:
-    //     'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-    //   image: 'alphabet-blocks.jpg',
-    //   price: 9.99,
-    //   quantity: 600
-    // },
-    // {
-    //   name: 'Alphabet Blocks',
-    //   category: categories[5]._id,
-    //   description:
-    //     'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-    //   image: 'alphabet-blocks.jpg',
-    //   price: 9.99,
-    //   quantity: 600
-    // },
-    // {
-    //   name: 'Alphabet Blocks',
-    //   category: categories[5]._id,
-    //   description:
-    //     'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-    //   image: 'alphabet-blocks.jpg',
-    //   price: 9.99,
-    //   quantity: 600
-    // },
-    // {
-    //   name: 'Alphabet Blocks',
-    //   category: categories[5]._id,
-    //   description:
-    //     'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-    //   image: 'alphabet-blocks.jpg',
-    //   price: 9.99,
-    //   quantity: 600
-    // },
-    // {
-    //   name: 'Alphabet Blocks',
-    //   category: categories[5]._id,
-    //   description:
-    //     'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-    //   image: 'alphabet-blocks.jpg',
-    //   price: 9.99,
-    //   quantity: 600
-    // },
+    }
   ]);
 
   console.log('products seeded');
