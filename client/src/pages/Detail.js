@@ -91,9 +91,15 @@ function Detail() {
 
           <h2>{currentProduct.name}</h2>
 
-          <p>{currentProduct.description}</p>
+          <img
+              style={{ height: "40%", width: "40%"}}
+              src={`/images/${currentProduct.image}`}
+              alt={currentProduct.name}
+            />
 
-          <p>
+          <p style={{ width: "40%", float: "right" }}>{currentProduct.description}</p>
+
+          <p style={{ float: "right" }}>
             <strong>Price:</strong>${currentProduct.price}{' '}
             <button onClick={addToCart}>Add to Cart</button>
             <button
@@ -103,12 +109,8 @@ function Detail() {
               Remove from Cart
             </button>
           </p>
-
-          <img
-            src={`/images/${currentProduct.image}`}
-            alt={currentProduct.name}
-          />
         </div>
+
       ) : null}
       {loading ? <img src={spinner} alt="loading" /> : null}
       <Cart />

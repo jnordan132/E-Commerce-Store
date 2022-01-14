@@ -23,7 +23,7 @@ function Nav() {
       );
     } else {
       return (
-        <ul className="flex-row">
+        <ul className="flex-row" style={{ listStyle: "none", float: "right" }}>
           <li className="mx-1">
             <Link to="/signup">
               Signup
@@ -42,8 +42,7 @@ function Nav() {
   return (
     <header className="flex-row px-1">
       <h1>
-        <Link to="/">
-          <span role="img" aria-label="shopping bag">👟</span>
+        <Link style={{ textDecoration: 'none'}} to="/">
           Shoe Fanatic
         </Link>
       </h1>
