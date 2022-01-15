@@ -8,7 +8,6 @@ import { QUERY_CATEGORIES } from '../../utils/queries';
 import { idbPromise } from '../../utils/helpers';
 import { useSelector, useDispatch } from 'react-redux';
 
-
 function CategoryMenu() {
   const state = useSelector(state => state);
   const dispatch = useDispatch()
@@ -46,12 +45,7 @@ function CategoryMenu() {
   return (
     <div style={{ marginTop: '1.5%' }}>
       {categories.map((item) => (
-        <button
-          key={item._id}
-          onClick={() => {
-            handleClick(item._id);
-          }}
-        >
+        <button key={item._id} onClick={() => { handleClick(item._id) }}>
           {item.name}
         </button>
       ))}
