@@ -44,7 +44,7 @@ function CategoryMenu() {
   };
 
   return (
-    <div>
+    <div style={{ marginTop: '1.5%' }}>
       {categories.map((item) => (
         <button
           key={item._id}
