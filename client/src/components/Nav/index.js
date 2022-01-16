@@ -2,6 +2,10 @@ import React from "react";
 import Auth from "../../utils/auth";
 import { Link } from "react-router-dom";
 
+function refreshPage(){
+  window.location.reload();
+}
+
 function Nav() {
 
   function showNavigation() {
@@ -42,7 +46,7 @@ function Nav() {
   return (
     <header className="flex-row px-1">
       <h1>
-        <Link style={{ textDecoration: 'none' }}>
+        <Link to="/" onClick={refreshPage} style={{ textDecoration: 'none' }} >
           Shoe Fanatic
         </Link>
       </h1>
