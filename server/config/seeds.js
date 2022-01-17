@@ -102,7 +102,7 @@ db.once('open', async () => {
       category: categories[1]._id,
       description:
         'The Air Jordan 1 Mid Shoe is inspired by the first AJ1, offering fans of Jordan retros a chance to follow in the footsteps of greatness. Fresh color trims the clean, classic materials, injecting some newness into the familiar design.',
-      image: 'Jordan2.png',
+      image: 'Jordan2.jpg',
       price: 120,
       quantity: 162
     },
