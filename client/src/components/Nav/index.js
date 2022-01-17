@@ -3,6 +3,10 @@ import Auth from "../../utils/auth";
 import { Link } from "react-router-dom";
 import Cart from "../Cart";
 
+function refreshPage(){
+  window.location.reload();
+}
+
 function Nav() {
 
   function showNavigation() {
@@ -43,7 +47,8 @@ function Nav() {
   return (
     <header className="headerNav px-1">
       <h1>
-        <Link to="/"style={{ textDecoration: 'none' }}>
+
+        <Link to="/" onClick={refreshPage} style={{ textDecoration: 'none' }} >
           Shoe Fanatic
         </Link>
       </h1>
