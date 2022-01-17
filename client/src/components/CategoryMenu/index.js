@@ -43,7 +43,7 @@ function CategoryMenu() {
   };
 
   return (
-    <div style={{ marginTop: '1.5%' }}>
+    <div style={{ marginTop: '1.5%' }} className='categoryBtns'>
       {categories.map((item) => (
         <button key={item._id} onClick={() => { handleClick(item._id) }}>
           {item.name}

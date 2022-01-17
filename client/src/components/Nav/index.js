@@ -1,13 +1,14 @@
 import React from "react";
 import Auth from "../../utils/auth";
 import { Link } from "react-router-dom";
+import Cart from "../Cart";
 
 function Nav() {
 
   function showNavigation() {
     if (Auth.loggedIn()) {
       return (
-        <ul className="flex-row" style={{ listStyle: "none"}}>
+        <ul className="headerNav" style={{ listStyle: "none"}}>
           <li className="mx-1">
             <Link to="/orderHistory" style={{ textDecoration: 'none' }}>
               Order History
@@ -23,7 +24,7 @@ function Nav() {
       );
     } else {
       return (
-        <ul className="flex-row" style={{ listStyle: "none" }}>
+        <ul className="headerNav" style={{ listStyle: "none" }}>
           <li className="mx-1">
             <Link to="/signup"  style={{ textDecoration: 'none' }}>
               Signup
@@ -40,16 +41,18 @@ function Nav() {
   }
 
   return (
-    <header className="flex-row px-1">
+    <header className="headerNav px-1">
       <h1>
-        <Link style={{ textDecoration: 'none' }}>
+        <Link to="/"style={{ textDecoration: 'none' }}>
           Shoe Fanatic
         </Link>
       </h1>
-
+    <div className="headerLinks">
       <nav>
         {showNavigation()}
       </nav>
+      <Cart />
+      </div>
     </header>
   );
 }
