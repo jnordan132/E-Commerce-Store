@@ -9,7 +9,9 @@ import {
 import { setContext } from '@apollo/client/link/context';
 import { Provider } from 'react-redux';
 import store from './utils/store';
-
+import { useState } from 'react';
+import './App.css';
+import StripeContainer from './components/StripeContainer';
 import Home from './pages/Home';
 import Detail from './pages/Detail';
 import NoMatch from './pages/NoMatch';
@@ -39,6 +41,7 @@ const client = new ApolloClient({
 });
 
 function App() {
+  const [showItem, setShowItem] = useState(false)
   return (
     <ApolloProvider client={client}>
       <Router>
@@ -55,6 +58,15 @@ function App() {
               <Route component={NoMatch} />
             </Switch>
           </Provider>
+          {showItem ? (
+				<StripeContainer />
+			) : (
+				<>
+					<h3>Shoes</h3>
+					
+					<button onClick={() => setShowItem(true)}>Purchase Shoes</button>
+				</>
+			)}
         </div>
       </Router>
     </ApolloProvider>
