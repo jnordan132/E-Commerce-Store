@@ -21,7 +21,7 @@ db.once('open', async () => {
       name: 'Nike Air Max 90',
       description:
         'First a legend on the track and then a legend in the streets, the Nike Air Max 90 By You brings the comfort of Air to the masses.',
-      image: 'Nike-1.png',
+      image: 'Nike1.png',
       category: categories[0]._id,
       price: 140,
       quantity: 114
@@ -30,7 +30,7 @@ db.once('open', async () => {
       name: 'Nike Air Force 1 Low',
       description:
         'The Nike Air Force 1 Low became an instant icon after its debut in 1982. Now you can make this classic your own with a color palette inspired by the ‘80s and ‘90s and premium materials including smooth and rippled leather and a new, matching sidewall selection. It’s time to create a look that speaks to you.',
-      image: 'Nike-2.png',
+      image: 'Nike2.png',
       category: categories[0]._id,
       price: 110,
       quantity: 322
@@ -40,7 +40,7 @@ db.once('open', async () => {
       category: categories[0]._id,
       description:
         'Celebrate workwear’s wide appeal with a new take on the Nike Air Max 95. Utilitarian materials like polished twill and leather are rugged and durable with an undeniable nod to runway style. Perfectly understated details like contrast stitching and gradient layers add a new level of depth to this long-time favorite.',
-      image: 'Nike-3.png',
+      image: 'Nike3.png',
       price: 180,
       quantity: 243
     },
@@ -49,7 +49,7 @@ db.once('open', async () => {
       category: categories[0]._id,
       description:
         'The Nike Waffle One is the original racer. Go for a hyper-heritage look or modernize with colors and details inspired by long days at the beach. OG materials and colors straight from the vault blend seamlessly with innovative materials and finishes for a look that’s 100% you.',
-      image: 'Nike-4.png',
+      image: 'Nike4.png',
       price: 130,
       quantity: 106
     },
@@ -58,7 +58,7 @@ db.once('open', async () => {
       category: categories[0]._id,
       description:
         'The Nike React Live simulates the thrills of a ropes course without ever leaving the ground. The cable system that runs around the shoe nods to an adrenaline-pumping adventure. Choose “vertigo” mesh for a mind-bending visual experience. Outdoor-inspired laces and anodized aglets that draw on the look of a classic carabiner finish off this unique salute to the great outdoors.',
-      image: 'Nike-5.png',
+      image: 'Nike5.png',
       price: 120,
       quantity: 247
     },
@@ -67,7 +67,7 @@ db.once('open', async () => {
       category: categories[0]._id,
       description:
         'Bring back the nostalgia of long summer days from your childhood with a hot color palette and a wavy mesh that alludes to the mesmerizing optical illusion of heat rising off the blacktop. Classic layers get a new level of appeal with material choices, pop colors and metallic silver that hearkens back to the real OG: Nike Air Max 97.',
-      image: 'Nike-6.png',
+      image: 'Nike6.png',
       price: 190,
       quantity: 91
     },
@@ -76,7 +76,7 @@ db.once('open', async () => {
       category: categories[0]._id,
       description:
         'The Nike Air Presto Shoe elevates a popular runner with modern innovation. Color the snug bootie and iconic cage, then dial up your design with speckles and color on the heel cushioning. Finish it off with a short personal message on the heel.',
-      image: 'Nike-7.png',
+      image: 'Nike7.png',
       price: 150,
       quantity: 203
     },
@@ -85,7 +85,7 @@ db.once('open', async () => {
       category: categories[0]._id,
       description:
         'Inspired by the mythical creatures of Mexican folk art, the Nike React Vision By You serves up a palette of textures, graphics and materials that let you express your wild side. Add surreal comfort with Nike React foam and a personal message on the heel clip for a shoe that could only come from the dream world.',
-      image: 'Nike-8.png',
+      image: 'Nike8.png',
       price: 150,
       quantity: 187
     },
@@ -93,7 +93,7 @@ db.once('open', async () => {
       name: 'Air Jordan 1 Low',
       category: categories[1]._id,
       description: "Inspired by the original that debuted in 1985, the Air Jordan 1 Low offers a clean, classic look that's familiar yet always fresh. It's made for casual mode, with an iconic design that goes with everything and never goes out of style.",
-      image: 'Jordan-1.png',
+      image: 'Jordan1.png',
       price: 110,
       quantity: 118
     },
@@ -102,7 +102,7 @@ db.once('open', async () => {
       category: categories[1]._id,
       description:
         'The Air Jordan 1 Mid Shoe is inspired by the first AJ1, offering fans of Jordan retros a chance to follow in the footsteps of greatness. Fresh color trims the clean, classic materials, injecting some newness into the familiar design.',
-      image: 'Jordan-2.png',
+      image: 'Jordan2.png',
       price: 120,
       quantity: 162
     },
@@ -111,7 +111,7 @@ db.once('open', async () => {
       category: categories[1]._id,
       description:
         "The Air Jordan 4 Retro is inspired by the original metallic colors featured on the Air Jordan 1 from 1985. Boldly original, the now-iconic colors continue to reinforce the Brand's peerless heritage.",
-      image: 'Jordan-3.png',
+      image: 'Jordan3.png',
       price: 190,
       quantity: 89
     },
@@ -120,7 +120,7 @@ db.once('open', async () => {
       category: categories[1]._id,
       description:
         "The Jordan Delta 2 offers a fresh, fearless take on the features you want: durability, comfort and an attitude that's Jordan to the core. We updated design lines and swapped out some components, but the idea is the same as the first Delta. The 2 still has that clashing combination of supportive and space age-like materials, with lots of different textures and heavy stitching to create a look that's both adventurous and iconic.",
-      image: 'Jordan-4.png',
+      image: 'Jordan4.png',
       price: 130,
       quantity: 206
     },
@@ -129,7 +129,7 @@ db.once('open', async () => {
       category: categories[1]._id,
       description:
         "The Jordan Point Lane mixes elements from game shoes MJ wore during 3 of his most memorable seasons. Named for his Chicago address, this mash-up pulls in bits and pieces from the AJ3, AJ6 and AJ11 to create a shoe that's inspired by greatness and uncompromising in its comfort.",
-      image: 'Jordan-5.png',
+      image: 'Jordan5.png',
       price: 140,
       quantity: 110
     },
@@ -138,7 +138,7 @@ db.once('open', async () => {
       category: categories[1]._id,
       description:
         "Shatter the sneaker status quo in the Jordan MA2. Made with a mix of suede, full-grain leather and a variety of textiles, it's got unconventional labels, technical micro-graphics and raw foam edges for a balance of new and classic. Easy to get on and off, it wears with just about anything.",
-      image: 'Jordan-6.png',
+      image: 'Jordan6.png',
       price: 125,
       quantity: 291
     },
@@ -147,7 +147,7 @@ db.once('open', async () => {
       category: categories[1]._id,
       description:
         'The Air Jordan 11 CMFT Low looks to the future of flight with comfort in mind. The soft leather toe cap and mudguard and webbing lace loops replicate distinct features from the original AJ11. Soft, smooth Cushlon foam and Zoom Air cushioning make every step comfortable.',
-      image: 'Jordan-7.png',
+      image: 'Jordan7.png',
       price: 120,
       quantity: 72
     },
@@ -156,7 +156,7 @@ db.once('open', async () => {
       category: categories[1]._id,
       description:
         'The Jordan Air NFH is an everyday sneaker with basketball in its DNA. Details like visible Air cushioning, stitched overlays and herringbone traction hook to the brand’s performance pedigree. Lightweight materials and an easy fit make it comfortable.',
-      image: 'Jordan-8.png',
+      image: 'Jordan8.png',
       price: 110,
       quantity: 104
     },
@@ -165,7 +165,7 @@ db.once('open', async () => {
       category: categories[2]._id,
       description:
         'You need a style to rely on. The Chuck Taylor All-Star is a staple: the high-top and oxford silhouettes stay simply classic, while the white laces and star ankle patch give a nod to the legacy of the Chuck. This is the go-with-everything go-to that you won’t get sick of going to. Stock up.',
-      image: 'Converse-1.png',
+      image: 'Converse1.png',
       price: 55,
       quantity: 107
     },
@@ -174,7 +174,7 @@ db.once('open', async () => {
       category: categories[2]._id,
       description:
         'You need a style to rely on. The Chuck Taylor All-Star is a staple: the high-top and oxford silhouettes stay simply classic, while the white laces and star ankle patch give a nod to the legacy of the Chuck. This is the go-with-everything go-to that you won’t get sick of going to. Stock up.',
-      image: 'Converse-2.png',
+      image: 'Converse2.png',
       price: 55,
       quantity: 121
     },
@@ -183,7 +183,7 @@ db.once('open', async () => {
       category: categories[2]._id,
       description:
         'You need a style to rely on. The Chuck Taylor All-Star is a staple: the high-top and oxford silhouettes stay simply classic, while the white laces and star ankle patch give a nod to the legacy of the Chuck. This is the go-with-everything go-to that you won’t get sick of going to. Stock up.',
-      image: 'Converse-3.png',
+      image: 'Converse3.png',
       price: 55,
       quantity: 143
     },
@@ -192,7 +192,7 @@ db.once('open', async () => {
       category: categories[2]._id,
       description:
         'You need a style to rely on. The Chuck Taylor All-Star is a staple: the high-top and oxford silhouettes stay simply classic, while the white laces and star ankle patch give a nod to the legacy of the Chuck. This is the go-with-everything go-to that you won’t get sick of going to. Stock up.',
-      image: 'Converse-4.jpg',
+      image: 'Converse4.jpg',
       price: 60,
       quantity: 136
     },
@@ -201,7 +201,7 @@ db.once('open', async () => {
       category: categories[2]._id,
       description:
         'You need a style to rely on. The Chuck Taylor All-Star is a staple: the high-top and oxford silhouettes stay simply classic, while the white laces and star ankle patch give a nod to the legacy of the Chuck. This is the go-with-everything go-to that you won’t get sick of going to. Stock up.',
-      image: 'Converse-5.png',
+      image: 'Converse5.png',
       price: 60,
       quantity: 163
     },
@@ -210,7 +210,7 @@ db.once('open', async () => {
       category: categories[2]._id,
       description:
         'You need a style to rely on. The Chuck Taylor All-Star is a staple: the high-top and oxford silhouettes stay simply classic, while the white laces and star ankle patch give a nod to the legacy of the Chuck. This is the go-with-everything go-to that you won’t get sick of going to. Stock up.',
-      image: 'Converse-6.png',
+      image: 'Converse6.png',
       price: 60,
       quantity: 194
     },
@@ -219,7 +219,7 @@ db.once('open', async () => {
       category: categories[2]._id,
       description:
         'You need a style to rely on. The Chuck Taylor All-Star is a staple: the high-top and oxford silhouettes stay simply classic, while the white laces and star ankle patch give a nod to the legacy of the Chuck. This is the go-with-everything go-to that you won’t get sick of going to. Stock up.',
-      image: 'Converse-7.png',
+      image: 'Converse7.png',
       price: 60,
       quantity: 210
     },
@@ -228,7 +228,7 @@ db.once('open', async () => {
       category: categories[2]._id,
       description:
         'You need a style to rely on. The Chuck Taylor All-Star is a staple: the high-top and oxford silhouettes stay simply classic, while the white laces and star ankle patch give a nod to the legacy of the Chuck. This is the go-with-everything go-to that you won’t get sick of going to. Stock up.',
-      image: 'Converse-8.jpg',
+      image: 'Converse8.jpg',
       price: 60,
       quantity: 231
     },
@@ -237,7 +237,7 @@ db.once('open', async () => {
       category: categories[3]._id,
       description:
         'First known as the Vans #36, the Old Skool debuted in 1977 with a unique new addition: a random doodle drawn by founder Paul Van Doren, and originally referred to as the “jazz stripe.” Today, the famous Vans Sidestripe has become the unmistakable—and instantly recognizable—hallmark of the Vans brand. Constructed with durable suede and canvas uppers in a range of fresh colorways, the Old Skool pays homage to our heritage while ensuring that this low top, lace-up shoe remains as iconic as ever. It also features re-enforced toe caps, supportive padded collars, and signature rubber waffle outsoles.',
-      image: 'Vans-1.jpg',
+      image: 'Vans1.jpg',
       price: 65,
       quantity: 144
     },
@@ -246,7 +246,7 @@ db.once('open', async () => {
       category: categories[3]._id,
       description:
         'First known as the Vans #36, the Old Skool debuted in 1977 with a unique new addition: a random doodle drawn by founder Paul Van Doren, and originally referred to as the “jazz stripe.” Today, the famous Vans Sidestripe has become the unmistakable—and instantly recognizable—hallmark of the Vans brand. Constructed with durable suede and canvas uppers in a range of fresh colorways, the Old Skool pays homage to our heritage while ensuring that this low top, lace-up shoe remains as iconic as ever. It also features re-enforced toe caps, supportive padded collars, and signature rubber waffle outsoles.',
-      image: 'Vans-2.jpg',
+      image: 'Vans2.jpg',
       price: 65,
       quantity: 178
     },
@@ -255,7 +255,7 @@ db.once('open', async () => {
       category: categories[3]._id,
       description:
         'First known as the Vans #36, the Old Skool debuted in 1977 with a unique new addition: a random doodle drawn by founder Paul Van Doren, and originally referred to as the “jazz stripe.” Today, the famous Vans Sidestripe has become the unmistakable—and instantly recognizable—hallmark of the Vans brand. Constructed with durable suede and canvas uppers in a range of fresh colorways, the Old Skool pays homage to our heritage while ensuring that this low top, lace-up shoe remains as iconic as ever. It also features re-enforced toe caps, supportive padded collars, and signature rubber waffle outsoles.',
-      image: 'Vans-3.jpg',
+      image: 'Vans3.jpg',
       price: 65,
       quantity: 112
     },
@@ -264,7 +264,7 @@ db.once('open', async () => {
       category: categories[3]._id,
       description:
         'First known as the Vans #36, the Old Skool debuted in 1977 with a unique new addition: a random doodle drawn by founder Paul Van Doren, and originally referred to as the “jazz stripe.” Today, the famous Vans Sidestripe has become the unmistakable—and instantly recognizable—hallmark of the Vans brand. Constructed with durable suede and canvas uppers in a range of fresh colorways, the Old Skool pays homage to our heritage while ensuring that this low top, lace-up shoe remains as iconic as ever. It also features re-enforced toe caps, supportive padded collars, and signature rubber waffle outsoles.',
-      image: 'Vans-4.jpg',
+      image: 'Vans4.jpg',
       price: 65,
       quantity: 149
     },
@@ -273,7 +273,7 @@ db.once('open', async () => {
       category: categories[3]._id,
       description:
         'First known as the Vans #36, the Old Skool debuted in 1977 with a unique new addition: a random doodle drawn by founder Paul Van Doren, and originally referred to as the “jazz stripe.” Today, the famous Vans Sidestripe has become the unmistakable—and instantly recognizable—hallmark of the Vans brand. Constructed with durable suede and canvas uppers in a range of fresh colorways, the Old Skool pays homage to our heritage while ensuring that this low top, lace-up shoe remains as iconic as ever. It also features re-enforced toe caps, supportive padded collars, and signature rubber waffle outsoles.',
-      image: 'Vans-5.jpg',
+      image: 'Vans5.jpg',
       price: 65,
       quantity: 97
     },
@@ -282,7 +282,7 @@ db.once('open', async () => {
       category: categories[3]._id,
       description:
       "Born in Anaheim, California in 1966, the Authentic is the original Vans heritage style. Originally know as Vans #44 Deck Shoes, the Authentic became an immediate cult icon, and has embodied our “Off The Wall” attitude ever since. Constructed with a simple low top, lace-up profile, this classic shoe also features sturdy canvas uppers, metal eyelets, and signature rubber waffle outsoles.",
-      image: 'Vans-6.jpg',
+      image: 'Vans6.jpg',
       price: 55,
       quantity: 146
     },
@@ -291,7 +291,7 @@ db.once('open', async () => {
       category: categories[3]._id,
       description:
         "Born in Anaheim, California in 1966, the Authentic is the original Vans heritage style. Originally know as Vans #44 Deck Shoes, the Authentic became an immediate cult icon, and has embodied our “Off The Wall” attitude ever since. Constructed with a simple low top, lace-up profile, this classic shoe also features sturdy canvas uppers, metal eyelets, and signature rubber waffle outsoles.",
-      image: 'Vans-7.jpg',
+      image: 'Vans7.jpg',
       price: 55,
       quantity: 113
     },
@@ -300,7 +300,7 @@ db.once('open', async () => {
       category: categories[3]._id,
       description:
         'First introduced in 1977, the Vans #98—now known as the Classic Slip-On—instantly became an icon in Southern California. Fast forward to today, and the Classic Slip-On is known worldwide for its comfortable silhouette, easy wearability, and beloved design. Made with sturdy low profile canvas uppers, the Classic Slip-On is an everyday essential with true “Off The Wall” style. This iconic slip-on shoe also includes supportive padded collars, elastic side accents, and signature rubber waffle outsoles.',
-      image: 'Vans-8.jpg',
+      image: 'Vans8.jpg',
       price: 55,
       quantity: 204
     },
@@ -309,7 +309,7 @@ db.once('open', async () => {
       category: categories[4]._id,
       description:
         'Adidas NMD R1 Shoes. Knit upper with signature 3 stripe at quarters. Lace closure. Adidas logo screened at tongue. Heel loop. Boost midsole. Rubber outsole. Made with parley ocean plastic. Imported.',
-      image: 'Adidas-1.jpg',
+      image: 'Adidas1.jpg',
       price: 150,
       quantity: 112
     },
@@ -318,7 +318,7 @@ db.once('open', async () => {
       category: categories[4]._id,
       description:
         "Adidas Multix Shoes. Casual doesn't have to mean ordinary. Keep your look chill, but change it up with the standout style of these adidas Multix Shoes. A sporty mesh upper keeps your feet comfy as you take on whatever the day holds. Regular fit. Lace closure. Mesh upper. EVA midsole. Rubber outsole. Imported.",
-      image: 'Adidas-2.jpg',
+      image: 'Adidas2.jpg',
       price: 80,
       quantity: 192
     },
@@ -327,7 +327,7 @@ db.once('open', async () => {
       category: categories[4]._id,
       description:
         "Adidas ZX 1K Boost Shoes. Why should runners get all the glory? Lace into these adidas ZX 1K Boost Shoes and experience the same cutting-edge tech that first found its footing on the track. No running required. This pair fuses energy-returning Boost and EVA cushioning with sleek design for everyday wear. See the tech. Feel the comfort. Own your day. Lace closure. Knit mesh upper with overlays. Stable feel. Boost and EVA midsole. Rubber outsole. Imported",
-      image: 'Adidas-3.jpg',
+      image: 'Adidas3.jpg',
       price: 80,
       quantity: 104
     },
@@ -336,7 +336,7 @@ db.once('open', async () => {
       category: categories[4]._id,
       description:
         "Adidas Superstar Shoes. Originally made for basketball courts in the '70s. Celebrated by hip hop royalty in the '80s. The adidas Superstar shoe is now a lifestyle staple for streetwear enthusiasts. The world-famous shell toe feature remains, providing style and protection. Just like it did on the B-ball courts back in the day. The serrated 3-Stripes detail and adidas Superstar box logo adds OG authenticity to your look. Lace closure. Leather upper. Rubber outsole. Imported.",
-      image: 'Adidas-4.jpg',
+      image: 'Adidas4.jpg',
       price: 90,
       quantity: 113
     },
@@ -345,7 +345,7 @@ db.once('open', async () => {
       category: categories[4]._id,
       description:
         "Adidas ZX 700 HD Shoes. The ZX line has always stood for innovation. The latest addition to adidas' tech-driven line is no exception. These sneakers are the perfect combination of modern materials and retro style. Go ahead. Step into the future. Lace closure. Textile upper with suede overlay. Synthetic lining. Rubber outsole. Imported.",
-      image: 'Adidas-5.jpg',
+      image: 'Adidas5.jpg',
       price: 90,
       quantity: 181
     },
@@ -354,7 +354,7 @@ db.once('open', async () => {
       category: categories[4]._id,
       description:
         'Adidas Swift Run 22 Shoes. Remember the first pair of sneakers you fell in love with? Relive the memory every day in these adidas Swift Run 22 Shoes. Rooted in running but designed for the daily grind, these sneakers keep you comfortable with a supportive knit mesh upper and a cushioned EVA midsole. Oh, and they look good too. Win win. Made with a series of recycled materials, this upper features at least 50% recycled content. This product represents just one of our solutions to help end plastic waste. Snug fit. Lace closure. Mesh upper. Textured feel. EVA midsole. Rubber outsole. Made with recycled materials. Imported.',
-      image: 'Adidas-6.jpg',
+      image: 'Adidas6.jpg',
       price: 85,
       quantity: 106
     },
@@ -363,7 +363,7 @@ db.once('open', async () => {
       category: categories[4]._id,
       description:
         "Adidas Ozelia Shoes. We may be a long way from the '90s, but these Ozelia Shoes are rooted in that loud, experimental era. Inspired by the adidas archives, the bold sneakers have a chunky build that's all about being noticed. They're sleek with a fast look, and when your days are fast-paced, the Adiprene cushioning helps out on the comfort side of things. This product is made with recycled content as part of our ambition to end plastic waste. 20% of pieces used to make the upper are made with minimum 50% recycled content. Snug fit. Lace closure. Textile upper. Adiprene cushioning. Rubber outsole. Imported",
-      image: 'Adidas-7.jpg',
+      image: 'Adidas7.jpg',
       price: 100,
       quantity: 89
     },
@@ -372,7 +372,7 @@ db.once('open', async () => {
       category: categories[4]._id,
       description:
         'Adidas Seeley XT shoes. Less is more with these Seeley shoes, low top skate shoes in the business of getting back to basics. Made of lightweight suede upper, these shoes offer top-to-bottom flexibility and comfort. Leather detailing. Gold Metal Eyelets. Grippy vulcanized rubber outsole for precise board feel. Imported.',
-      image: 'Adidas-8.jpg',
+      image: 'Adidas8.jpg',
       price: 65,
       quantity: 124
     }
