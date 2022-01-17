@@ -32,9 +32,9 @@
 }
 
 .cart-closed {
-  position: fixed;
+  /* position: fixed;
   top: 2%;
-  right: 1%;
+  right: 1%; */
   font-size: 2rem;
   cursor: pointer;
   background-color: var(--secondary);

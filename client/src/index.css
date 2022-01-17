@@ -1,12 +1,13 @@
 :root {
-  --primary: #496c97;
-  --secondary: #bbe991;
-  --tertiary: #c43c3c;
+  --primary: #ffffff;
+  --secondary: #AB0000;
+  --tertiary: #ffffff;
   --light: #fafafa;
   --dark: #272f32;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
+  --href: #5b0000;
 }
 
 * {
@@ -70,7 +71,7 @@ p {
 }
 
 a {
-  color: var(--tertiary);
+  color: var(--href);
   text-decoration: none;
   font-weight: bold;
 }
@@ -80,7 +81,7 @@ a:hover {
 }
 
 header {
-  background: var(--primary);
+  background: var(--secondary);
 }
 
 header a {
@@ -97,10 +98,13 @@ button {
   cursor: pointer;
   margin: 0 1px;
   background-color: var(--secondary);
+  color:white;
+  transition: 100ms;
 }
 
 button:hover {
   opacity: .875;
+  transform: scale(1.05);
 }
 
 button[disabled] {
@@ -135,15 +139,25 @@ input:focus {
 }
 
 .container {
-  width: 85%;
-  max-width: 1200px;
+  /* Page Width dimensions*/
+  /* max-width: 80%; */
   margin-left: auto;
   margin-right: auto;
+  background-color: var(--primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+  /* max-width: 1200px; */
+  /* max-width: 80%; */
+}
+.headerNav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .space-between {
@@ -172,6 +186,8 @@ input:focus {
 .my-2 {
   margin-top: var(--spacing-two);
   margin-bottom: var(--spacing-two);
+  /* Makes Shoe container max out at 1200px width without effecting background styling. */
+  max-width: 1200px;
 }
 
 .px-1 {
@@ -194,17 +210,91 @@ input:focus {
   padding-bottom: var(--spacing-two);
 }
 
-.card {
-  width: 25%;
-  text-align: center;
+.card:hover {
+  transform: scale(1.01);
 }
-
+.card {
+  /* width: 25%; */
+  text-align: center;
+  flex: 1 1 20%;
+  margin: 8px;
+  background-color: var(--tertiary);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
+              0 2px 2px rgba(0,0,0,0.11), 
+              0 4px 4px rgba(0,0,0,0.11), 
+              0 6px 8px rgba(0,0,0,0.11),
+              0 8px 16px rgba(0,0,0,0.11);
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+transition: 150ms;
+}
+.card p{
+  color: black;
+  margin-bottom: 5px;
+}
+.card a{
+  display: hidden;
+}
+.card img {
+  -webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+padding: 4px;
+height: 300px;
+width: 300px;
+object-fit: cover;
+}
+.productPage img,h2,p {
+  margin-bottom: 30px;
+  color: black;
+}
+.productPage h2 {
+  font-weight: 550;
+}
+.headerLinks {
+  display: flex;
+}
+.categoryBtns button {
+  margin: 4px;
+}
 .error-text {
   color: var(--error);
 }
+@media screen and (max-width: 1200px) {
+.card{
+  flex: 1 1 30%;
+}
+  .card img {
+  width: 100% !important;
+}
+}
 
 @media screen and (max-width: 768px) {
+  .flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+  }
+  .container {
+    align-content: center;
+  }
+  .categoryBtns {
+    display: flex;
+    justify-content: center;
+  }
   .card {
-    width: 100%;
+    flex: 1 1 33%;
+  }
+}
+
+@media screen and (max-width: 420px
+) {
+  .categoryBtns {
+    flex-direction: column;
+  }
+  .categoryBtns button {
+    margin: 5px;
   }
 }
