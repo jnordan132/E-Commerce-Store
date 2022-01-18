@@ -247,6 +247,9 @@ height: 300px;
 width: 300px;
 object-fit: cover;
 }
+.card button {
+  margin: 10px;
+}
 .productPage img,h2,p {
   margin-bottom: 30px;
   color: black;
