@@ -24,7 +24,7 @@
   top: .5rem;
   right: .5rem;
   cursor: pointer;
-  color: var(--tertiary);
+  color: black);
 }
 
 .cart .close:hover {
