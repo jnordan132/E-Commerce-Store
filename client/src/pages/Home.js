@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className="container">
       <div>
-        <img src="../images/MJ-header.jpg" style={{ width: '1000vw', height: '80vh', backgroundRepeat: "repeat", objectFit: "cover", transform: "scale(.9)" }}></img>
+        <img src="../images/MJ-header.jpg" style={{ width: '1000vw', height: '80vh', backgroundRepeat: "repeat", objectFit: "cover", transform: "scale(.9)"}}></img>
       </div>
       <CategoryMenu />
       <ProductList />
