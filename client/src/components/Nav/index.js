@@ -48,7 +48,7 @@ function Nav() {
     <header className="headerNav px-1">
       <h1>
 
-        <Link to="/" onClick={refreshPage} style={{ textDecoration: 'none' }} >
+        <Link to="/" style={{ textDecoration: 'none' }} >
           Shoe Fanatic
         </Link>
       </h1>
