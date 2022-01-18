@@ -280,8 +280,9 @@ object-fit: cover;
   justify-content: center;
   align-items: flex-start;
   max-width: 80%;
-Padding: 4%;
-background-image: url(https://www.transparenttextures.com/patterns/asfalt-light.png)
+  Padding: 4%;
+  background-image: url(https://www.transparenttextures.com/patterns/asfalt-light.png);
+  background-repeat: repeat;
 
 }
 .detailRight {
