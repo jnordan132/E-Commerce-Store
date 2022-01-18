@@ -258,8 +258,11 @@ object-fit: cover;
   display: flex;
 }
 .categoryBtns button {
-  margin: 4px;
+  margin-bottom: 4px;
 }
+.headerImgDiv {
+  margin-bottom: 20px !important;
+    }
 .error-text {
   color: var(--error);
 }
@@ -288,6 +291,10 @@ object-fit: cover;
   }
   .card {
     flex: 1 1 33%;
+  }
+  .headerImgDiv {
+height: 30vh !important;
+margin-bottom: 20px !important;
   }
 }
 
