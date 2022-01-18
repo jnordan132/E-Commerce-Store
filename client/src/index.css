@@ -271,12 +271,17 @@ object-fit: cover;
 .error-text {
   color: var(--error);
 }
+.productPage{
+  background-color: rgb(247, 247, 247);
+}
 .detailPage {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
   max-width: 80%;
+Padding: 4%;
+background-image: url(https://www.transparenttextures.com/patterns/asfalt-light.png)
 
 }
 .detailRight {
