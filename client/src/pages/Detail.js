@@ -88,27 +88,33 @@ function Detail() {
       {currentProduct && cart ? (
         <div className="productPage container my-1">
           <Link to="/">← Back to Products</Link>
-
-          <h2>{currentProduct.name}</h2>
-
+<div className='detailPage'>
+        <section className='detailLeft'>
           <img
-              style={{ height: "40%", width: "40%"}}
+              // style={{ height: "40%", width: "40%"}}
               src={`/images/${currentProduct.image}`}
               alt={currentProduct.name}
             />
-
-          <p style={{ width: "40%", float: "right" }}>{currentProduct.description}</p>
-
-          <p style={{ float: "right" }}>
-            <strong>Price:</strong>${currentProduct.price}{' '}
-            <button onClick={addToCart}>Add to Cart</button>
+        </section>
+        <section className="detailRight">
+ <h2>{currentProduct.name}</h2>
+          <p>{currentProduct.description}</p>
+        <div className='detailPrice'>
+          <p>
+            <strong>Price:</strong>{' '}${currentProduct.price}{' '}<br></br>
+            <div className='detailBtns'>
+            <button onClick={addToCart} >Add to Cart</button><br></br>
             <button
               disabled={!cart.find((p) => p._id === currentProduct._id)}
               onClick={removeFromCart}
             >
               Remove from Cart
             </button>
+            </div>
           </p>
+          </div>
+          </section>
+          </div>
         </div>
 
       ) : null}
