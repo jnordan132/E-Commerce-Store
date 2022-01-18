@@ -230,6 +230,7 @@ input:focus {
 -moz-border-radius: 15px;
 border-radius: 15px;
 transition: 150ms;
+border-top: 1px solid rgb(228, 228, 228);
 }
 .card p{
   color: black;
@@ -243,6 +244,7 @@ transition: 150ms;
 -moz-border-radius: 15px;
 border-radius: 15px;
 padding: 4px;
+padding-top: 10px;
 height: 300px;
 width: 300px;
 object-fit: cover;
