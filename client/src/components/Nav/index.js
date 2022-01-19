@@ -31,7 +31,7 @@ function Nav() {
         <ul className="headerNav" style={{ listStyle: "none" }}>
           <li className="mx-1">
             <Link to="/signup"  style={{ textDecoration: 'none' }}>
-              Signup
+              Sign-up
             </Link>
           </li>
           <li className="mx-1">

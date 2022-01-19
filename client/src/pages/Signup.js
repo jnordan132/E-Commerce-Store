@@ -40,7 +40,7 @@ function Signup(props) {
 
   return (
     <div className="signup">
-      <h4>Sign Up</h4>
+      <h4>Sign-Up</h4>
       <form onSubmit={handleFormSubmit}>
         <div className="text_area">
           <input
