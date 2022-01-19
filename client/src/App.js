@@ -19,6 +19,11 @@ import Nav from './components/Nav';
 import Success from './pages/Success';
 import OrderHistory from './pages/OrderHistory';
 
+import './pages/Login.css';
+import './pages/Signup.css';
+
+
+
 const httpLink = createHttpLink({
   uri: '/graphql',
 });
