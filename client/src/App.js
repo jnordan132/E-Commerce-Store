@@ -45,9 +45,9 @@ const client = new ApolloClient({
 
 function App() {
   return (
+    <div>
     <ApolloProvider client={client}>
       <Router>
-        <div>
           <Provider store={store}>
             <Nav />
             <Switch>
@@ -60,9 +60,9 @@ function App() {
               <Route component={NoMatch} />
             </Switch>
           </Provider>
-        </div>
       </Router>
     </ApolloProvider>
+    </div>
   );
 }
 

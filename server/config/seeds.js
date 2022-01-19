@@ -318,7 +318,7 @@ db.once('open', async () => {
       category: categories[4]._id,
       description:
         "Adidas Multix Shoes. Casual doesn't have to mean ordinary. Keep your look chill, but change it up with the standout style of these adidas Multix Shoes. A sporty mesh upper keeps your feet comfy as you take on whatever the day holds. Regular fit. Lace closure. Mesh upper. EVA midsole. Rubber outsole. Imported.",
-      image: 'Adidas2.webp',
+      image: 'Adidas2.jpg',
       price: 80,
       quantity: 192
     },
@@ -327,7 +327,7 @@ db.once('open', async () => {
       category: categories[4]._id,
       description:
         "Adidas ZX 1K Boost Shoes. Why should runners get all the glory? Lace into these adidas ZX 1K Boost Shoes and experience the same cutting-edge tech that first found its footing on the track. No running required. This pair fuses energy-returning Boost and EVA cushioning with sleek design for everyday wear. See the tech. Feel the comfort. Own your day. Lace closure. Knit mesh upper with overlays. Stable feel. Boost and EVA midsole. Rubber outsole. Imported",
-      image: 'Adidas3.webp',
+      image: 'Adidas3.jpg',
       price: 80,
       quantity: 104
     },
@@ -345,7 +345,7 @@ db.once('open', async () => {
       category: categories[4]._id,
       description:
         "Adidas ZX 700 HD Shoes. The ZX line has always stood for innovation. The latest addition to adidas' tech-driven line is no exception. These sneakers are the perfect combination of modern materials and retro style. Go ahead. Step into the future. Lace closure. Textile upper with suede overlay. Synthetic lining. Rubber outsole. Imported.",
-      image: 'Adidas5.webp',
+      image: 'Adidas5.jpg',
       price: 90,
       quantity: 181
     },
@@ -354,7 +354,7 @@ db.once('open', async () => {
       category: categories[4]._id,
       description:
         'Adidas Swift Run 22 Shoes. Remember the first pair of sneakers you fell in love with? Relive the memory every day in these adidas Swift Run 22 Shoes. Rooted in running but designed for the daily grind, these sneakers keep you comfortable with a supportive knit mesh upper and a cushioned EVA midsole. Oh, and they look good too. Win win. Made with a series of recycled materials, this upper features at least 50% recycled content. This product represents just one of our solutions to help end plastic waste. Snug fit. Lace closure. Mesh upper. Textured feel. EVA midsole. Rubber outsole. Made with recycled materials. Imported.',
-      image: 'Adidas6.webp',
+      image: 'Adidas6.jpg',
       price: 85,
       quantity: 106
     },
@@ -363,7 +363,7 @@ db.once('open', async () => {
       category: categories[4]._id,
       description:
         "Adidas Ozelia Shoes. We may be a long way from the '90s, but these Ozelia Shoes are rooted in that loud, experimental era. Inspired by the adidas archives, the bold sneakers have a chunky build that's all about being noticed. They're sleek with a fast look, and when your days are fast-paced, the Adiprene cushioning helps out on the comfort side of things. This product is made with recycled content as part of our ambition to end plastic waste. 20% of pieces used to make the upper are made with minimum 50% recycled content. Snug fit. Lace closure. Textile upper. Adiprene cushioning. Rubber outsole. Imported",
-      image: 'Adidas7.webp',
+      image: 'Adidas7.jpg',
       price: 100,
       quantity: 89
     },
@@ -372,7 +372,7 @@ db.once('open', async () => {
       category: categories[4]._id,
       description:
         'Adidas Seeley XT shoes. Less is more with these Seeley shoes, low top skate shoes in the business of getting back to basics. Made of lightweight suede upper, these shoes offer top-to-bottom flexibility and comfort. Leather detailing. Gold Metal Eyelets. Grippy vulcanized rubber outsole for precise board feel. Imported.',
-      image: 'Adidas8.webp',
+      image: 'Adidas8.jpg',
       price: 65,
       quantity: 124
     } 
