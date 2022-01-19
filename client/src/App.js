@@ -40,9 +40,10 @@ const client = new ApolloClient({
 
 function App() {
   return (
+    <div>
     <ApolloProvider client={client}>
       <Router>
-        <div>
+        <div style={{ backgroundImage: 'url(layered-waves-haikei.svg)' }}>
           <Provider store={store}>
             <Nav />
             <Switch>
@@ -58,6 +59,7 @@ function App() {
         </div>
       </Router>
     </ApolloProvider>
+    </div>
   );
 }
 

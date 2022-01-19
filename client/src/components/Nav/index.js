@@ -1,6 +1,6 @@
 import React from "react";
 import Auth from "../../utils/auth";
-import { Link } from "react-router-dom";
+import { Route, Link } from 'react-router-dom';
 import Cart from "../Cart";
 
 function refreshPage(){
@@ -47,10 +47,11 @@ function Nav() {
   return (
     <header className="headerNav px-1">
       <h1>
-
-        <Link to="/" onClick={refreshPage} style={{ textDecoration: 'none' }} >
-          Shoe Fanatic
-        </Link>
+        <Route exact path="/">
+          <Link to="/" style={{ textDecoration: 'none' }} >
+            Shoe Fanatic
+          </Link>
+        </Route>
       </h1>
     <div className="headerLinks">
       <nav>
