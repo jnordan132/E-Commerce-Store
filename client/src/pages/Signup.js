@@ -49,7 +49,6 @@ function Signup(props) {
             name="firstName"
             placeholder="First Name"
             onChange={handleChange}
-            
             className="text_input"
           />
         </div>
@@ -60,17 +59,16 @@ function Signup(props) {
             name="lastName"
             placeholder="Last Name"
             onChange={handleChange}
-           
             className="text_input"
           />
-    <div className="text_area">
+          </div>
+        <div className="text_area">
           <input
             type="email"
             id="email"
             name="email"
             placeholder="Email"
             onChange={handleChange}
-            
             className="text_input"
           />
         </div>
@@ -81,10 +79,8 @@ function Signup(props) {
             name="password"
             placeholder="Password"
             onChange={handleChange}
-            
             className="text_input"
           />
-        </div>
         </div>
         <input type="submit" value="SIGN UP" className="btn" />
       </form>

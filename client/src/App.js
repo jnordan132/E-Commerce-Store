@@ -18,9 +18,7 @@ import Signup from './pages/Signup';
 import Nav from './components/Nav';
 import Success from './pages/Success';
 import OrderHistory from './pages/OrderHistory';
-
-import './pages/Login.css';
-import './pages/Signup.css';
+import './pages/Signup-Login.css';
 
 
 
