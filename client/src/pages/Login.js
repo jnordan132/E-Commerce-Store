@@ -35,12 +35,11 @@ function Login(props) {
       <form onSubmit={handleFormSubmit}>
         <div className="text_area">
           <input
-            type="text"
-            id="username"
-            name="username"
-            placeholder="Username"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
             onChange={handleChange}
-            
             className="text_input"
           />
         </div>
@@ -51,7 +50,6 @@ function Login(props) {
             name="password"
             placeholder="Password"
             onChange={handleChange}
-           
             className="text_input"
           />
         </div>
