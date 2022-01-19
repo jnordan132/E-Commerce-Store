@@ -43,7 +43,6 @@ function App() {
     <div>
     <ApolloProvider client={client}>
       <Router>
-        <div style={{ backgroundImage: 'url(layered-waves-haikei.svg)' }}>
           <Provider store={store}>
             <Nav />
             <Switch>
@@ -56,7 +55,6 @@ function App() {
               <Route component={NoMatch} />
             </Switch>
           </Provider>
-        </div>
       </Router>
     </ApolloProvider>
     </div>

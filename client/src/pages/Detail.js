@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { useQuery } from '@apollo/client';
+import Footer from "../components/Footer";
 
 import Cart from '../components/Cart';
 import {
@@ -86,31 +87,33 @@ function Detail() {
   return (
     <>
       {currentProduct && cart ? (
-        <div className="productPage container my-1">
-          <Link to="/">← Back to Products</Link>
+        <div>
+          <div className="productPage container my-1">
+            <Link to="/">← Back to Products</Link>
 
-          <h2>{currentProduct.name}</h2>
+            <h2>{currentProduct.name}</h2>
 
-          <img
-              style={{ height: "40%", width: "40%"}}
-              src={`/images/${currentProduct.image}`}
-              alt={currentProduct.name}
-            />
+            <img
+                style={{ height: "40%", width: "40%"}}
+                src={`/images/${currentProduct.image}`}
+                alt={currentProduct.name}
+              />
 
-          <p style={{ width: "40%", float: "right" }}>{currentProduct.description}</p>
+            <p style={{ width: "40%", float: "right" }}>{currentProduct.description}</p>
 
-          <p style={{ float: "right" }}>
-            <strong>Price:</strong>${currentProduct.price}{' '}
-            <button onClick={addToCart}>Add to Cart</button>
-            <button
-              disabled={!cart.find((p) => p._id === currentProduct._id)}
-              onClick={removeFromCart}
-            >
-              Remove from Cart
-            </button>
-          </p>
+            <p style={{ float: "right" }}>
+              <strong>Price:</strong>${currentProduct.price}{' '}
+              <button onClick={addToCart}>Add to Cart</button>
+              <button
+                disabled={!cart.find((p) => p._id === currentProduct._id)}
+                onClick={removeFromCart}
+              >
+                Remove from Cart
+              </button>
+            </p>
+          </div>
+          <Footer />
         </div>
-
       ) : null}
       {loading ? <img src={spinner} alt="loading" /> : null}
       {/* <Cart /> */}
