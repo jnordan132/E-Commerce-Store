@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import { useMutation } from '@apollo/client';
 import Auth from '../utils/auth';
 import { ADD_USER } from '../utils/mutations';
@@ -40,55 +39,54 @@ function Signup(props) {
   };
 
   return (
-    <div className="container my-1">
-      <Link to="/login">← Go to Login</Link>
-
-      <h2>Signup</h2>
+    <div className="signup">
+      <h4>Sign-Up</h4>
       <form onSubmit={handleFormSubmit}>
-        <div className="flex-row space-between my-2">
-          <label htmlFor="firstName">First Name:</label>
+        <div className="text_area">
           <input
-            placeholder="First"
-            name="firstName"
             type="firstName"
             id="firstName"
+            name="firstName"
+            placeholder="First Name"
             onChange={handleChange}
+            className="text_input"
           />
         </div>
-        <div className="flex-row space-between my-2">
-          <label htmlFor="lastName">Last Name:</label>
+        <div className="text_area">
           <input
-            placeholder="Last"
-            name="lastName"
             type="lastName"
             id="lastName"
+            name="lastName"
+            placeholder="Last Name"
             onChange={handleChange}
+            className="text_input"
           />
-        </div>
-        <div className="flex-row space-between my-2">
-          <label htmlFor="email">Email:</label>
+          </div>
+        <div className="text_area">
           <input
-            placeholder="youremail@test.com"
-            name="email"
             type="email"
             id="email"
+            name="email"
+            placeholder="Email"
             onChange={handleChange}
+            className="text_input"
           />
         </div>
-        <div className="flex-row space-between my-2">
-          <label htmlFor="pwd">Password:</label>
+        <div className="text_area">
           <input
-            placeholder="******"
-            name="password"
             type="password"
-            id="pwd"
+            id="password"
+            name="password"
+            placeholder="Password"
             onChange={handleChange}
+            className="text_input"
           />
         </div>
-        <div className="flex-row flex-end">
-          <button type="submit">Submit</button>
-        </div>
+        <input type="submit" value="SIGN UP" className="btn" />
       </form>
+      <a className="link" href="/login">
+        Login
+      </a>
     </div>
   );
 }

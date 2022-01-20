@@ -1,6 +1,6 @@
 import React from "react";
 import Auth from "../../utils/auth";
-import { Link } from "react-router-dom";
+import { Route, Link } from 'react-router-dom';
 import Cart from "../Cart";
 
 function refreshPage(){
@@ -31,7 +31,7 @@ function Nav() {
         <ul className="headerNav" style={{ listStyle: "none" }}>
           <li className="mx-1">
             <Link to="/signup"  style={{ textDecoration: 'none' }}>
-              Signup
+              Sign-up
             </Link>
           </li>
           <li className="mx-1">
@@ -47,10 +47,11 @@ function Nav() {
   return (
     <header className="headerNav px-1">
       <h1>
-
-        <Link to="/" style={{ textDecoration: 'none' }} >
-          Shoe Fanatic
-        </Link>
+        <Route exact path="/">
+          <Link to="/" style={{ textDecoration: 'none' }} >
+            Shoe Fanatic
+          </Link>
+        </Route>
       </h1>
     <div className="headerLinks">
       <nav>

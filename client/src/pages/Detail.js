@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { useQuery } from '@apollo/client';
+import Footer from "../components/Footer";
 
 import Cart from '../components/Cart';
 import {
@@ -116,7 +117,6 @@ function Detail() {
           </section>
           </div>
         </div>
-
       ) : null}
       {loading ? <img src={spinner} alt="loading" /> : null}
       {/* <Cart /> */}

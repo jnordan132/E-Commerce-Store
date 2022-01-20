@@ -1,5 +1,5 @@
 :root {
-  --primary: #ffffff;
+  /* --primary: #ffffff; */
   --secondary: #AB0000;
   --tertiary: #ffffff;
   --light: #fafafa;
@@ -352,3 +352,5 @@ margin-bottom: 20px !important;
     margin: 5px;
   }
 }
+
+
