@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 
 const Home = () => {
   return (
-    <div className="container">
+    <div className="container" style={{ overflow: 'hidden' }}>
       <div
         className="headerImgDiv"
         style={{
@@ -48,8 +48,8 @@ const Home = () => {
             objectFit: "cover",
             objectPosition: "50% 90%",
             filter: "contrast(1.09)",
-            filter: "blur(1px)",
-            transform: "scale(1.01)",
+            // filter: "blur(1px)",
+            transform: "scale(1.0)",
           }}
         ></img>
       </div>
