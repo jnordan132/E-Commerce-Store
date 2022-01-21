@@ -89,6 +89,10 @@ header a {
   color: var(--light);
 }
 
+header h1 {
+  color: var(--light);
+}
+
 button {
   font-size: 1rem;
   text-decoration: none;
@@ -160,6 +164,9 @@ input:focus {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+.headerNav h1 {
+  color: var(--light)
 }
 
 .space-between {
