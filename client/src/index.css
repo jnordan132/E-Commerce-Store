@@ -270,7 +270,7 @@ object-fit: cover;
   display: flex;
 }
 .categoryBtns button {
-  margin-bottom: 4px;
+  margin: 0px 4px 4px 4px;
 }
 .headerImgDiv {
   margin-bottom: 20px !important;
