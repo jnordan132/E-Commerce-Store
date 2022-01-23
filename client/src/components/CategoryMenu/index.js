@@ -7,6 +7,8 @@ import {
 import { QUERY_CATEGORIES } from '../../utils/queries';
 import { idbPromise } from '../../utils/helpers';
 import { useSelector, useDispatch } from 'react-redux';
+import { Route, Link }  from 'react-router-dom';
+import Nike from "../../pages/Nike";
 
 
 function CategoryMenu() {
@@ -36,20 +38,25 @@ function CategoryMenu() {
     }
   }, [categoryData, loading, dispatch]);
 
-  const handleClick = (id) => {
-    dispatch({
-      type: UPDATE_CURRENT_CATEGORY,
-      currentCategory: id,
-    });
-  };
-
   return (
     <div className='categoryBtns'>
-      {categories.map((item) => (
-        <button variant="contained" key={item._id} onClick={() => { handleClick(item._id) }}>
-          {item.name}
-        </button>
-      ))}
+      <Route>
+        <Link to="/nike" page={Nike}>
+          <button variant="contained">Nike</button>
+        </Link>
+        <Link to="/jordan">
+          <button variant="contained">Jordan</button>
+        </Link>
+        <Link to="/converse">
+          <button variant="contained">Converse</button>
+        </Link>
+        <Link to="/vans">
+          <button variant="contained">Vans</button>
+        </Link>
+        <Link to="/adidas">
+          <button variant="contained">Adidas</button>
+        </Link>
+      </Route>
     </div>
   );
 }
