@@ -1,0 +1,27 @@
+.products {
+   
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    row-gap: 1em;
+  }
+
+
+
+
+
+
+.cartItemImage{
+    flex-direction: left;}
+    
+    .Qty{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .itemPrice{
+        font-weight: bold;
+        vertical-align: right;    
+
+    }
