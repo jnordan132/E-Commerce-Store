@@ -40,8 +40,9 @@ const CartItem = ({ item }) => {
   }
 
   return (
-    <div className="flex-row">
-      <div>
+    <div className="products">
+      <div className="flex-row">
+      <div className="cartItemImage">
         <img
           src={`/images/${item.image}`}
           alt=""
@@ -49,7 +50,7 @@ const CartItem = ({ item }) => {
       </div>
       <div>
         <div>{item.name}</div>
-        <div>
+        <div className="Qty">
           <span>Qty:</span>
           <input
             type="number"
@@ -64,9 +65,10 @@ const CartItem = ({ item }) => {
           >
             🗑️
           </span>
-          <div><strong>${item.price}</strong></div>
+          <div className="itemPrice"><strong>${item.price}</strong></div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

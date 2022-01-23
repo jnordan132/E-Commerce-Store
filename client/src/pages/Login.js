@@ -58,6 +58,9 @@ function Login(props) {
       <a className="link" href="/signup">
         Sign Up
       </a>
+      <a className="link" href="/">
+        Home
+      </a>
     </div>
   );
 }
