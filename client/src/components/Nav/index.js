@@ -3,10 +3,6 @@ import Auth from "../../utils/auth";
 import { Route, Link }  from 'react-router-dom';
 import Cart from "../Cart";
 
-function refreshPage(){
-  window.location.reload();
-}
-
 function Nav() {
 
   function showNavigation() {
@@ -19,7 +15,6 @@ function Nav() {
             </Link>
           </li>
           <li className="mx-1">
-            {/* this is not using the Link component to logout or user and then refresh the application to the start */}
             <a href="/" onClick={() => Auth.logout()}  style={{ textDecoration: 'none' }}>
               Logout
             </a>
