@@ -1,0 +1,70 @@
+.searchInputs {
+    margin-top: 12px;
+    display: flex;
+  }
+  
+  .search input {
+    background-color: white;
+    border: 0;
+    border-radius: 2px;
+    font-size: 18px;
+    padding: 10px;
+    height: 30px;
+    width: 300px;
+  }
+  
+  .searchIcon {
+    /* height: 3px; */
+    width: 50px;
+    display: grid;
+    place-items: center;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  .dataResult {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 300px;
+    height: 215px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+    overflow-y: auto;
+  }
+  
+  .dataResult::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .dataResult .dataItem {
+    width: 100%;
+    height: 43px;
+    display: flex;
+    text-align: left;
+    color: black;
+  }
+  
+  .dataItem p {
+    margin-left: 10px;
+    margin-top: 9px;
+  }
+  .dataItem .dataPrice {
+    margin-left: auto;
+    margin-right: 15px;
+  }
+
+  .dataItem {
+    text-decoration: none;
+  }
+  
+  .dataItem:hover {
+    background-color: rgb(224, 224, 224);
+    cursor: pointer;
+  }
+  
+  #clearBtn {
+    cursor: pointer;
+  }

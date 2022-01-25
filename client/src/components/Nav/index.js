@@ -2,6 +2,8 @@ import React from "react";
 import Auth from "../../utils/auth";
 import { Route, Link }  from 'react-router-dom';
 import Cart from "../Cart";
+import SearchBar from "../SearchBar/SearchBar";
+import ShoeData from "../../Data.json";
 
 function Nav() {
 
@@ -46,6 +48,7 @@ function Nav() {
             Shoe Fanatic
         </Link>
       </h1>
+      <SearchBar placeholder="Search..." data={ShoeData} />
     <div className="headerLinks">
       <nav>
         {showNavigation()}

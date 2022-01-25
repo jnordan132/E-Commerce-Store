@@ -25,8 +25,6 @@ import Converse from './pages/Converse';
 import Vans from './pages/Vans';
 import Adidas from './pages/Adidas';
 
-
-
 const httpLink = createHttpLink({
   uri: '/graphql',
 });
@@ -49,6 +47,7 @@ const client = new ApolloClient({
 function App() {
   return (
     <div>
+    
     <ApolloProvider client={client}>
       <Router>
           <Provider store={store}>
@@ -71,6 +70,7 @@ function App() {
       </Router>
     </ApolloProvider>
     </div>
+    
   );
 }
 
