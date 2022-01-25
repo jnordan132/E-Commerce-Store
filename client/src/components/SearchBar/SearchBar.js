@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import "./SearchBar"
-import SearchIcon from "@material-ui/icons/Search";
-import CloseIcon from "@material-ui/icons/Close";
+import "./SearchBar.css"
+// import bisearch from "bootstrap-icons";
 
 function SearchBar({ placeholder, data }) {
   const [filteredData, setFilteredData] = useState([]);
@@ -35,13 +34,15 @@ function SearchBar({ placeholder, data }) {
           value={wordEntered}
           onChange={handleFilter}
         />
+        
         <div className="searchIcon">
-          {filteredData.length === 0 ? (
-            <SearchIcon />
-          ) : (
-            <CloseIcon id="clearBtn" onClick={clearInput} />
-          )}
+         {filteredData.length === 0 ? (
+             <button>Search</button>
+            ) : ( 
+           <button id="clearBtn" onClick={clearInput}>Clear</button>
+         )}
         </div>
+
       </div>
       {filteredData.length != 0 && (
         <div className="dataResult">
@@ -55,7 +56,8 @@ function SearchBar({ placeholder, data }) {
         </div>
       )}
     </div>
-  );
+  )
 }
+
 
 export default SearchBar;

@@ -1,5 +1,5 @@
 .searchInputs {
-    margin-top: 105px;
+    margin-top: 12px;
     display: flex;
   }
   
@@ -7,18 +7,15 @@
     background-color: white;
     border: 0;
     border-radius: 2px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
     font-size: 18px;
-    padding: 15px;
+    padding: 10px;
     height: 30px;
     width: 300px;
   }
   
   .searchIcon {
-    height: 60px;
+    /* height: 3px; */
     width: 50px;
-    background-color: white;
     display: grid;
     place-items: center;
   }
@@ -26,14 +23,12 @@
   input:focus {
     outline: none;
   }
-  .searchIcon svg {
-    font-size: 35px;
-  }
   
   .dataResult {
     margin-top: 5px;
+    margin-bottom: 5px;
     width: 300px;
-    height: 200px;
+    height: 215px;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     overflow: hidden;
@@ -46,21 +41,28 @@
   
   .dataResult .dataItem {
     width: 100%;
-    height: 50px;
+    height: 43px;
     display: flex;
-    align-items: center;
+    text-align: left;
     color: black;
   }
   
   .dataItem p {
     margin-left: 10px;
+    margin-top: 9px;
   }
-  a {
+  .dataItem .dataPrice {
+    margin-left: auto;
+    margin-right: 15px;
+  }
+
+  .dataItem {
     text-decoration: none;
   }
   
-  a:hover {
-    background-color: lightgrey;
+  .dataItem:hover {
+    background-color: rgb(224, 224, 224);
+    cursor: pointer;
   }
   
   #clearBtn {

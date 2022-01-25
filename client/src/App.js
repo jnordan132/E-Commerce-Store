@@ -25,11 +25,6 @@ import Converse from './pages/Converse';
 import Vans from './pages/Vans';
 import Adidas from './pages/Adidas';
 
-
-
-
-
-
 const httpLink = createHttpLink({
   uri: '/graphql',
 });
