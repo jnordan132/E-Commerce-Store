@@ -2,6 +2,7 @@ import React from "react";
 import Auth from "../../utils/auth";
 import { Route, Link }  from 'react-router-dom';
 import Cart from "../Cart";
+import SearchBar from "../SearchBar";
 
 function Nav() {
 
@@ -47,6 +48,9 @@ function Nav() {
         </Link>
       </h1>
     <div className="headerLinks">
+    <div>
+      <SearchBar placeholder="Enter a Shoe Name..." data={ShoeData} />
+    </div>
       <nav>
         {showNavigation()}
       </nav>
