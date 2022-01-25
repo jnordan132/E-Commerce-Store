@@ -25,10 +25,10 @@
   }
   
   .dataResult {
-    margin-top: 5px;
+    margin-top: 4px;
     margin-bottom: 5px;
     width: 300px;
-    height: 215px;
+    height: 258px;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     overflow: hidden;
@@ -63,6 +63,7 @@
   .dataItem:hover {
     background-color: rgb(224, 224, 224);
     cursor: pointer;
+    text-decoration: none;
   }
   
   #clearBtn {
