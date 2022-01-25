@@ -26,7 +26,7 @@ function SearchBar({ placeholder, data }) {
   };
 
   return (
-    <div className="search">
+    <div className="search" style={{ position: 'relative', zIndex: '2' }}>
       <div className="searchInputs">
         <input
           type="text"
@@ -45,7 +45,7 @@ function SearchBar({ placeholder, data }) {
 
       </div>
       {filteredData.length != 0 && (
-        <div className="dataResult">
+        <div className="dataResult" style={{ position: "absolute" }}>
           {filteredData.slice(0, 15).map((value, key) => {
             return (
               <a className="dataItem" href={value.link}>
