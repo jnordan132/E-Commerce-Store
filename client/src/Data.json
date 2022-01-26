@@ -8,196 +8,235 @@
   {
     "title": "Nike Air Force 1 Low",
     "image": "Nike2.png",
-    "price": 110
+    "price": 110,
+    "link": "http://localhost:3000/products/61f0871d803110259cda44cb"
   },
   {
     "title": "Nike Air Max 95",
     "image": "Nike3.png",
-    "price": 180
+    "price": 180,
+    "link": "http://localhost:3000/products/61f0871d803110259cda44cc"
   },
   {
     "title": "Nike Waffle One",
     "image": "Nike4.png",
-    "price": 130
+    "price": 130,
+    "link": "http://localhost:3000/products/61f0871d803110259cda44cd"
   },
   {
     "title": "Nike React Live",
     "image": "Nike5.png",
-    "price": 120
+    "price": 120,
+    "link": "http://localhost:3000/products/61f0871d803110259cda44ce"
   },
   {
     "title": "Nike Air Max 97",
     "image": "Nike6.png",
-    "price": 190
+    "price": 190,
+    "link": "http://localhost:3000/products/61f0871d803110259cda44cf"
   },
   {
     "title": "Nike Air Presto",
     "image": "Nike7.png",
-    "price": 150
+    "price": 150,
+    "link": "http://localhost:3000/products/61f0871d803110259cda44d0"
   },
   {
     "title": "Nike React Vision",
     "image": "Nike8.png",
-    "price": 150
+    "price": 150,
+    "link": "http://localhost:3000/products/61f0871d803110259cda44d1"
   },
   {
     "title": "Air Jordan 1 Low",
     "image": "Jordan1.png",
-    "price": 110
+    "price": 110,
+    "link": "http://localhost:3000/products/61f0871d803110259cda44d2"
   },
   {
     "title": "Air Jordan 1 Mid",
     "image": "Jordan2.jpg",
-    "price": 120
+    "price": 120,
+    "link": "http://localhost:3000/products/61f0871d803110259cda44d3"
   },
   {
     "title": "Air Jordan 4 Retro",
     "image": "Jordan3.png",
-    "price": 190
+    "price": 190,
+    "link": "http://localhost:3000/products/61f0871d803110259cda44d4"
   },
   {
     "title": "Jordan Delta 2",
     "image": "Jordan4.png",
-    "price": 130
+    "price": 130,
+    "link": "http://localhost:3000/products/61f0871d803110259cda44d5"
   },
   {
     "title": "Jordan Point Lane",
     "image": "Jordan5.png",
-    "price": 140
+    "price": 140,
+    "link": "http://localhost:3000/products/61f0871d803110259cda44d6"
   },
   {
     "title": "Jordan MA2",
     "image": "Jordan6.png",
-    "price": 125
+    "price": 125,
+    "link": "http://localhost:3000/products/61f0871d803110259cda44d7"
   },
   {
     "title": "Air Jordan 11 CMFT Low",
     "image": "Jordan7.png",
-    "price": 120
+    "price": 120,
+    "link": "http://localhost:3000/products/61f0871d803110259cda44d8"
   },
   {
     "title": "Jordan Air NFH",
     "image": "Jordan8.png",
-    "price": 110
+    "price": 110,
+    "link": "http://localhost:3000/products/61f0871d803110259cda44d9"
   },
   {
     "title": "Converse Low Top/Black",
     "image": "Converse1.png",
-    "price": 55
+    "price": 55,
+    "link": "http://localhost:3000/products/61f0871d803110259cda44da"
   },
   {
     "title": "Converse Low Top/White",
     "image": "Converse2.png",
-    "price": 55
+    "price": 55,
+    "link": "http://localhost:3000/products/61f0871d803110259cda44db"
   },
   {
     "title": "Converse Low Top/Blue",
     "image": "Converse3.png",
-    "price": 55
+    "price": 55,
+    "link": "http://localhost:3000/products/61f0871d803110259cda44dc"
   },
   {
     "title": "Converse Low Top/Red",
     "image": "Converse4.jpg",
-    "price": 60
+    "price": 60,
+    "link": "http://localhost:3000/products/61f0871d803110259cda44dd"
   },
   {
     "title": "Converse High Top/Black",
     "image": "Converse5.png",
-    "price": 60
+    "price": 60,
+    "link": "http://localhost:3000/products/61f0871d803110259cda44de"
   },
   {
     "title": "Converse High Top/White",
     "image": "Converse6.png",
-    "price": 60
+    "price": 60,
+    "link": "http://localhost:3000/products/61f0871d803110259cda44df"
   },
   {
     "title": "Converse High Top/Blue",
     "image": "Converse7.png",
-    "price": 60
+    "price": 60,
+    "link": "http://localhost:3000/products/61f0871d803110259cda44e0"
   },
   {
     "title": "Converse High Top/Red",
     "image": "Converse8.jpg",
-    "price": 60
+    "price": 60,
+    "link": "http://localhost:3000/products/61f0871d803110259cda44e1"
   },
   {
     "title": "Vans Old Skool/Black",
     "image": "Vans1.jpg",
-    "price": 65
+    "price": 65,
+    "link": "http://localhost:3000/products/61f0871d803110259cda44e2"
   },
   {
     "title": "Vans Old Skool/Brown",
     "image": "Vans2.jpg",
-    "price": 65
+    "price": 65,
+    "link": "http://localhost:3000/products/61f0871d803110259cda44e3"
   },
   {
     "title": "Vans Old Skool/Grey",
     "image": "Vans3.jpg",
-    "price": 65
+    "price": 65,
+    "link": "http://localhost:3000/products/61f0871d803110259cda44e4"
   },
   {
     "title": "Vans Old Skool/Red",
     "image": "Vans4.jpg",
-    "price": 65
+    "price": 65,
+    "link": "http://localhost:3000/products/61f0871d803110259cda44e5"
   },
   {
     "title": "Vans Old Skool/White/Orange/Grey",
     "image": "Vans5.jpg",
-    "price": 65
+    "price": 65,
+    "link": "http://localhost:3000/products/61f0871d803110259cda44e6"
   },
   {
     "title": "Vans Authentic/Blue",
     "image": "Vans6.jpg",
-    "price": 55
+    "price": 55,
+    "link": "http://localhost:3000/products/61f0871d803110259cda44e7"
   },
   {
     "title": "Vans Authentic/Brown",
     "image": "Vans7.jpg",
-    "price": 55
+    "price": 55,
+    "link": "http://localhost:3000/products/61f0871d803110259cda44e8"
   },
   {
     "title": "Vans Slip-On/Grey",
     "image": "Vans8.jpg",
-    "price": 55
+    "price": 55,
+    "link": "http://localhost:3000/products/61f0871d803110259cda44e9"
   },
   {
     "title": "Adidas NMD R1 Prime",
     "image": "Adidas1.jpg",
-    "price": 150
+    "price": 150,
+    "link": "http://localhost:3000/products/61f0871d803110259cda44ea"
   },
   {
     "title": "Adidas Multix",
     "image": "Adidas2.jpg",
-    "price": 80
+    "price": 80,
+    "link": "http://localhost:3000/products/61f0871d803110259cda44eb"
   },
   {
     "title": "Adidas ZX 1K Boost",
     "image": "Adidas3.jpg",
-    "price": 80
+    "price": 80,
+    "link": "http://localhost:3000/products/61f0871d803110259cda44ec"
   },
   {
     "title": "Adidas Superstar",
     "image": "Adidas4.jpg",
-    "price": 90
+    "price": 90,
+    "link": "http://localhost:3000/products/61f0871d803110259cda44ed"
   },
   {
     "title": "Adidas ZX 700HD",
     "image": "Adidas5.jpg",
-    "price": 90
+    "price": 90,
+    "link": "http://localhost:3000/products/61f0871d803110259cda44ee"
   },
   {
     "title": "Adidas Swift Run 22",
     "image": "Adidas6.jpg",
-    "price": 85
+    "price": 85,
+    "link": "http://localhost:3000/products/61f0871d803110259cda44ef"
   },
   {
     "title": "Adidas Ozelia",
     "image": "Adidas7.jpg",
-    "price": 100
+    "price": 100,
+    "link": "http://localhost:3000/products/61f0871d803110259cda44f0"
   },
   {
     "title": "Adidas Seeley Xt",
     "image": "Adidas8.jpg",
-    "price": 65
+    "price": 65,
+    "link": "http://localhost:3000/products/61f0871d803110259cda44f1"
   } 
 ]

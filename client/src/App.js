@@ -24,6 +24,8 @@ import Jordan from './pages/Jordan';
 import Converse from './pages/Converse';
 import Vans from './pages/Vans';
 import Adidas from './pages/Adidas';
+import Page2 from "./components/Page2";
+import Page3 from "./components/Page3";
 
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -64,6 +66,8 @@ function App() {
               <Route exact path="/success" component={Success} />
               <Route exact path="/orderHistory" component={OrderHistory} />
               <Route exact path="/products/:id" component={Detail} />
+              <Route exact path="/page2" component={Page2} />
+              <Route exact path="/page3" component={Page3} />
               <Route component={NoMatch} />
             </Switch>
           </Provider>

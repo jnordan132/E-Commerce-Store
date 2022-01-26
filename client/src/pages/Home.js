@@ -1,5 +1,7 @@
 import React from "react";
-import ProductList from "../components/ProductList";
+import ProductList1 from "../components/ProductList1";
+// import Page2 from "../components/Page2";
+// import ProductList3 from "../components/ProductList3";
 import CategoryMenu from "../components/CategoryMenu";
 import Footer from "../components/Footer";
 
@@ -55,7 +57,7 @@ const Home = () => {
         ></img>
       </div>
       <CategoryMenu />
-      <ProductList />
+      <ProductList1 />
       <Footer />
     </div>
   );
