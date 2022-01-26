@@ -318,6 +318,11 @@ width: 40vw;
   width: 250px;
   margin-top: 20px;
 }
+@media screen and (max-width: 1440px) {
+  .homeHeaderText {
+    display: none;
+  }
+}
 @media screen and (max-width: 1200px) {
 .card{
   flex: 1 1 30%;
