@@ -397,6 +397,21 @@ margin-bottom: 20px !important;
   .flex-row .card {
 transform: scale(.9);
   }
+
+  .detailPage {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .detailLeft {
+    width: auto;
+  }
+  .detailRight {
+    width: auto;
+  }
+  .detailPrice {
+    text-align: center;
+  }
 }
 
 
