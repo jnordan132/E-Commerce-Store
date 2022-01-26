@@ -48,7 +48,7 @@ function Nav() {
             Shoe Fanatic
         </Link>
       </h1>
-      <SearchBar placeholder="Search..." data={ShoeData} />
+      {/* <SearchBar placeholder="Search..." data={ShoeData} /> */}
     <div className="headerLinks">
       <nav>
         {showNavigation()}
