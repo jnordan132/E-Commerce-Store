@@ -36,6 +36,7 @@ const Home = () => {
               "0 1px 1px rgb(0 0 0 / 15%), 0 2px 2px rgb(0 0 0 / 15%), 0 4px 4px rgb(0 0 0 / 15%), 0 6px 8px rgb(0 0 0 / 15%), 0 8px 16px rgb(0 0 0 / 15%)",
             cursor: "default",
           }}
+          className="homeHeaderText"
         >
           {" "}
           SHOE FANATIC{" "}
