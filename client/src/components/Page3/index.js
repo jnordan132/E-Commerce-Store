@@ -80,11 +80,6 @@ function Page2() {
               <Link to="/page2">
               <button onClick={window.scrollTo(0, 0)}>Previous</button>
               </Link>
-              {pages.map((pageIndex) => (
-                <button key={pageIndex} onClick={() => setPageNumber(pageIndex)}>
-                  {pageIndex + 1}
-                </button>
-              ))}
             </div>
           </div>
       <Footer />
