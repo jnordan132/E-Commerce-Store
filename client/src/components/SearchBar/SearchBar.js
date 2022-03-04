@@ -46,7 +46,7 @@ function SearchBar({ placeholder, data }) {
       </div>
       {filteredData.length != 0 && (
         <div className="dataResult" style={{ position: "absolute" }}>
-          {filteredData.slice(0, 15).map((value, key) => {
+          {filteredData.slice(0, 15).map((value) => {
             return (
               <a className="dataItem" href={value.link}>
                 <p>{value.title} </p>

@@ -2,8 +2,8 @@ import React from "react";
 import Auth from "../../utils/auth";
 import { Route, Link }  from 'react-router-dom';
 import Cart from "../Cart";
-import SearchBar from "../SearchBar/SearchBar";
-import ShoeData from "../../Data.json";
+// import SearchBar from "../SearchBar/SearchBar";
+// import ShoeData from "../../Data.json";
 
 function Nav() {
 
